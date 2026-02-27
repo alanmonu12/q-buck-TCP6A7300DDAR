@@ -1115,226 +1115,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_IC_SMD_ARR:TCP6A7300DDAR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0.762 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TCP6A7300DDAR"
-				(at 6.096 -19.812 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO_ARR:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCP6A7300DDAR_0_1"
-				(rectangle
-					(start 0 0)
-					(end 12.7 -17.78)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TCP6A7300DDAR_1_1"
-				(pin passive line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -15.24 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -12.7 180)
-					(length 2.54)
-					(name "PRG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_sym_ARR:GND"
 			(power global)
 			(pin_numbers
@@ -1585,6 +1365,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SMPS_SMD_ARR:TCP6A7300DDAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.762 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCP6A7300DDAR"
+				(at 6.096 -19.812 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO_ARR:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCP6A7300DDAR_0_1"
+				(rectangle
+					(start 0 0)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TCP6A7300DDAR_1_1"
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "PRG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "${TITLE}"
 		(exclude_from_sim no)
@@ -1599,6 +1617,16 @@
 		)
 		(uuid "1e62d40e-6180-4e23-a93b-358feef410f7")
 	)
+	(text "MOST NOISE SENSITIVE, SMALL SIGNAL TRACES"
+		(exclude_from_sim no)
+		(at 57.404 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2fd97192-35dd-4b53-b4cd-092ced12a500")
+	)
 	(text "REV: ${REVISION}"
 		(exclude_from_sim no)
 		(at 265.43 18.034 0)
@@ -1611,6 +1639,16 @@
 			)
 		)
 		(uuid "447a3b8f-e6f2-40bf-a4c4-82693cad9bb8")
+	)
+	(text "HIGH CURRENT TRACES"
+		(exclude_from_sim no)
+		(at 45.974 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85649fd4-a572-414b-955d-89209f655828")
 	)
 	(text "STATUS: ${COMMENT1}"
 		(exclude_from_sim no)
@@ -1625,82 +1663,98 @@
 		)
 		(uuid "a0ac7e48-8856-4a8a-8f29-25d1e9cc569e")
 	)
+	(text "NOISY, HIGH dv/dt NODES/TRACES"
+		(exclude_from_sim no)
+		(at 52.07 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4c2352d-061d-4459-9c1f-de7903c702fb")
+	)
+	(junction
+		(at 110.49 86.36)
+		(diameter 0)
+		(color 108 0 2 1)
+		(uuid "09016fa4-e857-4d48-8b9a-58a942f81720")
+	)
 	(junction
 		(at 111.76 73.66)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "1f60a956-ba8a-4616-b412-d6a224499356")
 	)
 	(junction
 		(at 88.9 73.66)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "4121d575-2803-41c3-8f15-698e8bbeb4b6")
 	)
 	(junction
 		(at 177.8 76.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "52e237fa-b8a2-48c8-b77b-69c51b013d30")
 	)
 	(junction
 		(at 143.51 76.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "543746bf-ffc2-45cc-a04b-974fa9c73b6c")
 	)
 	(junction
 		(at 208.28 76.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "70dd2b8b-212c-4240-bd36-6f0a7afcf166")
 	)
 	(junction
 		(at 162.56 96.52)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 244 0 1)
 		(uuid "9124e69c-9f12-49fc-95be-3d341f52fc66")
 	)
 	(junction
 		(at 76.2 73.66)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "adbcee2f-090e-41ca-b7f9-7c5f789e5914")
 	)
 	(junction
 		(at 220.98 76.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "afebe5f0-e2fe-4f1a-b00c-881cb97d40d5")
 	)
 	(junction
 		(at 170.18 76.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "b654920c-f8d3-4a7d-8700-443e742f4ccc")
 	)
 	(junction
 		(at 170.18 96.52)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 244 0 1)
 		(uuid "b6fdddfa-9176-436c-906a-67e7a109eeca")
 	)
 	(junction
 		(at 157.48 76.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "e4a91d23-021b-42ee-8122-b2e84df70a70")
 	)
 	(junction
 		(at 101.6 73.66)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "fe299aff-7fd9-49a2-8ef4-b71899919f3e")
 	)
 	(junction
 		(at 195.58 76.2)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "fe695266-fb26-4ce6-b0cd-4776c6f6cce8")
 	)
 	(no_connect
@@ -1723,11 +1777,23 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 83.82) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 108 0 2 1)
+		)
+		(uuid "0c3e49a5-79ec-4c86-8c52-0553faacebe9")
+	)
+	(wire
+		(pts
 			(xy 76.2 73.66) (xy 88.9 73.66)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "110e2edd-7809-4198-97cb-944dc8545780")
 	)
@@ -1736,8 +1802,9 @@
 			(xy 101.6 73.66) (xy 111.76 73.66)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "17e50ce9-1d9f-4509-9cc4-a8f61b2f47c5")
 	)
@@ -1746,8 +1813,9 @@
 			(xy 177.8 76.2) (xy 195.58 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "1bb23536-c129-4867-b564-49041016ff8a")
 	)
@@ -1756,8 +1824,9 @@
 			(xy 154.94 76.2) (xy 157.48 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "1dca5e47-4a0e-435b-a76c-2c111f7b63f7")
 	)
@@ -1766,8 +1835,9 @@
 			(xy 101.6 81.28) (xy 101.6 83.82)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "2aed67c2-f6ef-4c6b-a0ea-4f8f878edd11")
 	)
@@ -1776,8 +1846,9 @@
 			(xy 110.49 86.36) (xy 110.49 91.44)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "2c8f9f1b-1640-4b0c-992e-0e38ad2cbb66")
 	)
@@ -1791,13 +1862,24 @@
 		)
 		(uuid "2ed35d43-2e4f-4ebe-8801-233c21abcb2d")
 	)
+	(polyline
+		(pts
+			(xy 144.78 69.85) (xy 146.05 68.58)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "34211a14-7146-4ecb-a78b-ac72b9a0a830")
+	)
 	(wire
 		(pts
 			(xy 114.3 86.36) (xy 110.49 86.36)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "3591480b-8236-4f30-a661-8ab18420895d")
 	)
@@ -1826,8 +1908,9 @@
 			(xy 220.98 73.66) (xy 220.98 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "50517e69-eef8-431d-a0c2-0f3b24c05b11")
 	)
@@ -1846,8 +1929,9 @@
 			(xy 177.8 96.52) (xy 177.8 91.44)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "623ae7aa-b859-4491-8d30-32e418f376f5")
 	)
@@ -1856,8 +1940,9 @@
 			(xy 170.18 96.52) (xy 177.8 96.52)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "63906f5a-628a-40da-a4e9-9f3bafa2ad26")
 	)
@@ -1866,8 +1951,9 @@
 			(xy 143.51 71.12) (xy 143.51 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "63e17ca8-420a-4810-92c4-f1ebea03317e")
 	)
@@ -1876,8 +1962,9 @@
 			(xy 208.28 86.36) (xy 208.28 90.17)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "6587eedf-399e-437a-8b8b-26fc0b73695c")
 	)
@@ -1886,8 +1973,9 @@
 			(xy 140.97 71.12) (xy 143.51 71.12)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "65bf1b7a-c2b4-4c1e-929d-874c0d8d9f0e")
 	)
@@ -1896,18 +1984,31 @@
 			(xy 170.18 93.98) (xy 170.18 96.52)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "6bc2b904-9e78-41b9-be92-96f272b6afe4")
+	)
+	(wire
+		(pts
+			(xy 110.49 83.82) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 108 0 2 1)
+		)
+		(uuid "72041ddb-287f-4a20-a897-ce75c1fd703e")
 	)
 	(wire
 		(pts
 			(xy 76.2 71.12) (xy 76.2 73.66)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "7e98d0f3-3124-4410-a8f7-aad48838bd9d")
 	)
@@ -1916,8 +2017,9 @@
 			(xy 195.58 76.2) (xy 195.58 78.74)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "80afac5b-2aff-40e1-9ce7-8f9562b1df6b")
 	)
@@ -1926,8 +2028,9 @@
 			(xy 195.58 76.2) (xy 208.28 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "81887b2f-46b4-4594-b1be-ff2529acdc83")
 	)
@@ -1936,8 +2039,9 @@
 			(xy 208.28 76.2) (xy 208.28 78.74)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "81ba31f4-6fd9-4efc-8833-77cdf904167e")
 	)
@@ -1946,28 +2050,53 @@
 			(xy 220.98 76.2) (xy 220.98 78.74)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "8284f4ca-997d-434b-a121-96d27aaf7714")
+	)
+	(polyline
+		(pts
+			(xy 17.78 127) (xy 30.48 127)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 108 0 2 1)
+		)
+		(uuid "8520787e-317c-449a-9084-a108bd744239")
 	)
 	(wire
 		(pts
 			(xy 137.16 96.52) (xy 137.16 86.36)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "8a3f1554-453a-48f9-a983-dcdb17518878")
+	)
+	(polyline
+		(pts
+			(xy 17.78 134.62) (xy 30.48 134.62)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 255 244 0 1)
+		)
+		(uuid "90c7ef11-772b-4fa8-a136-00a645cdbd83")
 	)
 	(wire
 		(pts
 			(xy 88.9 81.28) (xy 88.9 83.82)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "93d2ff00-69c7-4ba3-bc57-353b759a4567")
 	)
@@ -1976,8 +2105,9 @@
 			(xy 132.08 76.2) (xy 143.51 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "96555423-0da4-4fce-8022-4c10fc9aeec8")
 	)
@@ -1986,8 +2116,9 @@
 			(xy 162.56 96.52) (xy 170.18 96.52)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "99045d83-663d-4168-99e8-0bf200abdc5f")
 	)
@@ -1996,8 +2127,9 @@
 			(xy 220.98 86.36) (xy 220.98 90.17)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "9c1970a6-374b-4d41-ba86-6baa2afba7a8")
 	)
@@ -2006,10 +2138,21 @@
 			(xy 220.98 76.2) (xy 208.28 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "b09c2dd0-26ed-47a8-8202-282f3c28550a")
+	)
+	(polyline
+		(pts
+			(xy 29.21 142.24) (xy 30.48 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "b266b339-80db-413a-a02f-53d62b0928e4")
 	)
 	(wire
 		(pts
@@ -2021,13 +2164,34 @@
 		)
 		(uuid "b3f33de0-d254-4f05-bdb9-277f019d5b8d")
 	)
+	(polyline
+		(pts
+			(xy 144.78 69.85) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "b7002168-e771-4bb4-b45f-7fb467dfabd6")
+	)
+	(polyline
+		(pts
+			(xy 29.21 140.97) (xy 29.21 142.24)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "b74eef81-81ef-40da-9195-33e549182af8")
+	)
 	(wire
 		(pts
 			(xy 143.51 76.2) (xy 146.05 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "c140b041-1c0c-4128-bfb7-fb8cf836bb18")
 	)
@@ -2036,8 +2200,9 @@
 			(xy 195.58 86.36) (xy 195.58 90.17)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "c300aee2-eec9-45bf-ab34-0d93d534f13f")
 	)
@@ -2046,8 +2211,9 @@
 			(xy 170.18 76.2) (xy 177.8 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "c89c1cf3-046e-470f-a430-1b419093cc58")
 	)
@@ -2056,8 +2222,9 @@
 			(xy 111.76 73.66) (xy 114.3 73.66)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "cecb0ccc-f931-4a31-8ca1-277dfdf89e1e")
 	)
@@ -2066,8 +2233,9 @@
 			(xy 76.2 81.28) (xy 76.2 83.82)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "ddb32043-d8b5-43be-89b0-144c50a283de")
 	)
@@ -2076,8 +2244,9 @@
 			(xy 157.48 76.2) (xy 170.18 76.2)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "e0d99852-9b21-4395-8ba8-976d4c198b51")
 	)
@@ -2091,13 +2260,24 @@
 		)
 		(uuid "e68a155c-f4a4-4fec-920c-04798433d636")
 	)
+	(polyline
+		(pts
+			(xy 29.21 142.24) (xy 30.48 140.97)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "e68befd2-7cd8-441f-a0dc-ff87e6923a07")
+	)
 	(wire
 		(pts
 			(xy 170.18 99.06) (xy 170.18 96.52)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "ece674b7-529a-44ee-ad45-3d9d39b5f6c3")
 	)
@@ -2106,18 +2286,30 @@
 			(xy 137.16 86.36) (xy 132.08 86.36)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "ee53da7a-af51-4656-a1b1-0faa7724da30")
+	)
+	(polyline
+		(pts
+			(xy 144.78 68.58) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(uuid "f5769f8e-c81a-4b8a-a8b6-5f53063ce469")
 	)
 	(wire
 		(pts
 			(xy 162.56 96.52) (xy 137.16 96.52)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "f7e3fdc4-9432-437c-b4e3-6278df141bd4")
 	)
@@ -2126,8 +2318,9 @@
 			(xy 162.56 93.98) (xy 162.56 96.52)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 255 244 0 1)
 		)
 		(uuid "fda7eb0c-9536-442e-897c-ab83e8a2c461")
 	)
@@ -2136,8 +2329,9 @@
 			(xy 88.9 73.66) (xy 101.6 73.66)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "fe28433b-807b-4407-b14b-9202f68c7a78")
 	)
@@ -2963,103 +3157,6 @@
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_IC_SMD_ARR:TCP6A7300DDAR")
-		(at 116.84 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "476375a0-bd46-4eb6-97ec-4c166e988e58")
-		(property "Reference" "U1"
-			(at 117.602 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TCP6A7300DDAR"
-			(at 122.936 90.424 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO_ARR:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
-			(at 116.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Synchronous buck converter with a wide input voltage range of 3.8V to 35V."
-			(at 116.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "167f17f9-399d-4e50-8edd-22c35bef0dde")
-		)
-		(pin "6"
-			(uuid "3aad138c-5f77-4db2-86ad-1422e40bc11b")
-		)
-		(pin "3"
-			(uuid "4a959427-f7f0-474e-b491-8bdd55cd01eb")
-		)
-		(pin "8"
-			(uuid "c8c13c60-4a59-402d-8b01-35676b6aa2a8")
-		)
-		(pin "4"
-			(uuid "cf1b62aa-c11b-4e9c-9622-651deeb509b9")
-		)
-		(pin "7"
-			(uuid "04f95f95-d20b-4331-aae4-236e21dd265a")
-		)
-		(pin "5"
-			(uuid "4b024e6c-0052-46d6-842c-0f38de64b4a7")
-		)
-		(pin "2"
-			(uuid "80da79af-3da1-4b50-b438-8e7e353f0420")
-		)
-		(instances
-			(project ""
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4413,6 +4510,107 @@
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SMPS_SMD_ARR:TCP6A7300DDAR")
+		(at 116.84 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a375c873-ea61-471a-bd0a-b930bc590c35")
+		(property "Reference" "U1"
+			(at 123.19 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCP6A7300DDAR"
+			(at 123.19 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO_ARR:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias"
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "7390870f-239f-43c7-85f4-9c44efc0711a")
+		)
+		(pin "8"
+			(uuid "4e279e8a-3160-4eb7-a034-d8f5a3160ff5")
+		)
+		(pin "2"
+			(uuid "36a7ea49-2b27-4356-8e7d-757f3a231747")
+		)
+		(pin "1"
+			(uuid "0320d34c-47e6-44e1-a8c8-2fea775434a4")
+		)
+		(pin "3"
+			(uuid "ba0770b2-1d9b-4c04-86af-1981dd071172")
+		)
+		(pin "4"
+			(uuid "53a461bb-7807-4718-b3fa-85c4ec30774b")
+		)
+		(pin "6"
+			(uuid "3609a094-3d21-4ec0-9a04-6700f3a1dde6")
+		)
+		(pin "7"
+			(uuid "98bfbea2-51c8-43e1-a141-9ed6064604f8")
+		)
+		(pin "5"
+			(uuid "5b3714e1-d0c9-4067-8983-db18d511c821")
+		)
+		(instances
+			(project ""
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "U1")
 					(unit 1)
 				)
 			)
