@@ -15,6 +15,8 @@ educativos e industriales más grandes.
 - [Características del IC (TCP6A7300DDAR)](#características-del-ic-tcp6a7300ddar)
 - [Características de esta Placa de Evaluación](#características-de-esta-placa-de-evaluación)
 - [Ecuaciones y Diseño Preliminar](#ecuaciones-y-diseño-preliminar)
+- [📦 Lista de Materiales (BOM) y Consideraciones de Ensamblaje](#-lista-de-materiales-bom-y-consideraciones-de-ensamblaje)
+  - [⚠️ Limitaciones y Física del Hardware (Derating)](#️-limitaciones-y-física-del-hardware-derating)
 - [Estado del Proyecto](#estado-del-proyecto)
 - [Referencias y Documentación](#referencias-y-documentación)
 - [License](#license)
@@ -91,6 +93,41 @@ $$C_{OUT} = \frac{600mA}{8 \cdot 500kHz \cdot 20mV} = 7.5 \mu F$$
    >
    > Se utiliza un valor estándar de $10 \mu F$ (cerámico multicapa) para un filtrado óptimo.
 
+## 📦 Lista de Materiales (BOM) y Consideraciones de Ensamblaje
+
+Este prototipo fue diseñado bajo una filosofía de **"tropicalización" y rápida iteración**. Todos los componentes pasivos seleccionados son de montaje superficial (SMD tamaño 0805) y están restringidos a números de parte comerciales que se pueden adquirir inmediatamente en el mercado local mexicano (ej. Unit Electronics), evitando tiempos de importación.
+
+| Ref | Parte | Valor | Cantidad | Encapsulado | Función | Notas | Proveedor |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **U1** | TCP6A7300DDAR | | 1 | SOP-8-EP | IC Step-Down | QSM Semiconductores (3A Max) | [Link](#) |
+| **L1** | SWPA6020 | $10\mu H$ | 1 | 6.0x6.0mm | Inductor de Potencia | $I_{max} = 1.4A$, $I_{sat} = 2.1A$ | [Link](https://uelectronics.com/producto/indutor-de-ferrita-10uh-1-15a-slf0403-100mtt/) |
+| **C1, C4, C5** |  CC0805KRX7R9BB104 | $0.1\mu F$ | 3 | 0805 |  |  | [Link](https://uelectronics.com/producto/cc0805krx7r9bb104-capacitor-ceramico-0805-100nf-50v/) |
+| **C2** | UMK212ABJ225KG-T | $2.2\mu F$ | 1 | 0805 | Capacitor de Entrada | Soporta el alto $di/dt$ del nodo $V_{IN}$ | [Link](https://uelectronics.com/producto/umk212abj225kg-t-capacitor-ceramico-0805-2-2uf-50v/) |
+| **C3** |  TMK212BBJ106KG-T | $10\mu F$ | 1 | 0805 | Capacitor de Salida | Absorbe el rizado principal ($\Delta I_L$) | [Link](https://uelectronics.com/producto/tmk212bbj106kg-t-capacitor-ceramico-0805-10uf-25v/) |
+| **C6** | CL21C101JBANNNC | $100pF$ | 1 | 0805 | Feedforward ($C_{FF}$) | Mejora la respuesta transitoria | [Link](https://uelectronics.com/producto/cc0805krx7r9bb104-capacitor-ceramico-0805-100nf-50v/) |
+| **C7, C8** | TCC0805X7R105K500DTS | $1\mu F$ | 2 | 0805 |  |  | [Link](https://uelectronics.com/producto/capacitor-ceramico-0805-1uf-50v-tcc0805x7r105k500dts/) |
+| **R1** | RC0805JR-0756KL | $56k\Omega$ | 1 | 0805 | Divisor de Voltaje | Fija la salida a $\approx 5.28V$ | [Link](https://uelectronics.com/producto/resistor-56k-ohm-1-8w-smd-0805-rs-05k6802ft/) |
+| **R2** | 0805W8F1002T5E | $10k\Omega$ | 1 | 0805 | Divisor de Voltaje | Fija la salida a $\approx 5.28V$ | [Link](https://uelectronics.com/producto/resistor-10k-ohm-1-8w-smd-0805-0805w8f2202t5e/) |
+| **R3** | RTT05000JTP  | $0\Omega$ (Jumper) | 1 | 0805 | Inyección de Señal | Para medición del lazo (Bode Plot) | [Link](https://uelectronics.com/producto/resistor-0-ohm-1-8w-smd-0805-rtt05000jtp/) |
+| **R4** | 3362P  | $100k\Omega$ | 1 | 6.60x6.99mm | Ajuste de voltaje | Para pruebas a distintos voltajes   | [Link](https://uelectronics.com/producto/potenciometro-de-precision-3362p/) |
+
+> [!IMPORTANT]
+> Los footprints marcados como **DNP** (Do Not Populate) en el esquemático, como $C_8$ y $R_4$, se dejaron intencionalmente vacíos para permitir soldar componentes adicionales durante la fase de validación en banco de pruebas.
+
+### ⚠️ Limitaciones y Física del Hardware (Derating)
+
+Debido a la selección de componentes orientada a la disponibilidad local, esta placa de evaluación específica tiene las siguientes características operativas:
+
+**1. Límite de Corriente Continua (1.4A Máximo)**
+Aunque el IC TCP6A7300DDAR es capaz de entregar 3A, el inductor seleccionado (SWPA6020S100MT) dicta el límite térmico del sistema a **1.4A**.
+Matemáticamente, el inductor no se saturará bajo estas condiciones. En el peor caso ($V_{IN} = 35V$, $V_{OUT} = 5V$), el rizado de corriente es de $0.857A$.
+La corriente pico ($I_{peak}$) que verá el núcleo de ferrita es:
+$$I_{peak} = I_{OUT} + \frac{\Delta I_L}{2} = 1.4A + 0.428A = 1.828A$$
+Dado que $1.828A < 2.1A$ ($I_{sat}$ del inductor), el diseño es seguro y no provocará un cortocircuito por saturación del núcleo.
+
+**2. Pérdida de Capacitancia por DC Bias**
+Los capacitores cerámicos multicapa (MLCC) en tamaños compactos como el 0805 pierden capacitancia efectiva cuando se someten a un voltaje continuo.
+El capacitor de salida $C_3$ nominal de $10\mu F$ operando a $5V$ DC presentará una capacitancia real cercana a los **$5\mu F - 6\mu F$**. Si durante las pruebas de caracterización se detecta un rizado de voltaje ($\Delta V_{OUT}$) excesivo, se debe poblar el pad auxiliar $C_8$ con un capacitor idéntico en paralelo para recuperar la capacitancia calculada.
 
 ## Estado del Proyecto
 

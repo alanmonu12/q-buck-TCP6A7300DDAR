@@ -1674,12 +1674,6 @@
 		(uuid "c4c2352d-061d-4459-9c1f-de7903c702fb")
 	)
 	(junction
-		(at 110.49 86.36)
-		(diameter 0)
-		(color 108 0 2 1)
-		(uuid "09016fa4-e857-4d48-8b9a-58a942f81720")
-	)
-	(junction
 		(at 111.76 73.66)
 		(diameter 0)
 		(color 108 0 2 1)
@@ -1704,16 +1698,34 @@
 		(uuid "543746bf-ffc2-45cc-a04b-974fa9c73b6c")
 	)
 	(junction
+		(at 162.56 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c311e7-bff8-4762-99d4-eff2395867c6")
+	)
+	(junction
 		(at 208.28 76.2)
 		(diameter 0)
 		(color 108 0 2 1)
 		(uuid "70dd2b8b-212c-4240-bd36-6f0a7afcf166")
 	)
 	(junction
+		(at 162.56 76.2)
+		(diameter 0)
+		(color 108 0 2 1)
+		(uuid "91161c27-fea2-4f2b-bb86-8b9d2faa103f")
+	)
+	(junction
 		(at 162.56 96.52)
 		(diameter 0)
 		(color 255 244 0 1)
 		(uuid "9124e69c-9f12-49fc-95be-3d341f52fc66")
+	)
+	(junction
+		(at 110.49 86.36)
+		(diameter 0)
+		(color 108 0 2 1)
+		(uuid "a3abdc91-94fb-4ee2-8295-823baa6f45b8")
 	)
 	(junction
 		(at 76.2 73.66)
@@ -1740,12 +1752,6 @@
 		(uuid "b6fdddfa-9176-436c-906a-67e7a109eeca")
 	)
 	(junction
-		(at 157.48 76.2)
-		(diameter 0)
-		(color 108 0 2 1)
-		(uuid "e4a91d23-021b-42ee-8122-b2e84df70a70")
-	)
-	(junction
 		(at 101.6 73.66)
 		(diameter 0)
 		(color 108 0 2 1)
@@ -1758,12 +1764,18 @@
 		(uuid "fe695266-fb26-4ce6-b0cd-4776c6f6cce8")
 	)
 	(no_connect
-		(at 162.56 81.28)
-		(uuid "84763d02-6681-499c-9be9-9a4e44a9e29f")
-	)
-	(no_connect
 		(at 132.08 83.82)
 		(uuid "b40a315d-59a1-4c1f-8f33-b90832f76818")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062ca673-dd3d-4376-8e54-d339813c69bf")
 	)
 	(wire
 		(pts
@@ -1821,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 157.48 76.2)
+			(xy 154.94 76.2) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0.381)
@@ -1843,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 110.49 91.44)
+			(xy 110.49 86.36) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0.381)
@@ -1937,17 +1949,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 177.8 96.52)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 255 244 0 1)
-		)
-		(uuid "63906f5a-628a-40da-a4e9-9f3bafa2ad26")
-	)
-	(wire
-		(pts
 			(xy 143.51 71.12) (xy 143.51 76.2)
 		)
 		(stroke
@@ -2000,6 +2001,17 @@
 			(color 108 0 2 1)
 		)
 		(uuid "72041ddb-287f-4a20-a897-ce75c1fd703e")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 108 0 2 1)
+		)
+		(uuid "798c1872-d90d-4c88-9046-b98045d67727")
 	)
 	(wire
 		(pts
@@ -2135,6 +2147,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 87.63) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abeeead9-5cd1-43c8-bf91-27d9ee60ed50")
+	)
+	(wire
+		(pts
 			(xy 220.98 76.2) (xy 208.28 76.2)
 		)
 		(stroke
@@ -2239,27 +2261,6 @@
 		)
 		(uuid "ddb32043-d8b5-43be-89b0-144c50a283de")
 	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 170.18 76.2)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 108 0 2 1)
-		)
-		(uuid "e0d99852-9b21-4395-8ba8-976d4c198b51")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 157.48 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e68a155c-f4a4-4fec-920c-04798433d636")
-	)
 	(polyline
 		(pts
 			(xy 29.21 142.24) (xy 30.48 140.97)
@@ -2269,6 +2270,17 @@
 			(type solid)
 		)
 		(uuid "e68befd2-7cd8-441f-a0dc-ff87e6923a07")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 244 0 1)
+		)
+		(uuid "e750404a-7dec-4578-9b5d-35881ade8230")
 	)
 	(wire
 		(pts
@@ -2334,6 +2346,16 @@
 			(color 108 0 2 1)
 		)
 		(uuid "fe28433b-807b-4407-b14b-9202f68c7a78")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff779233-8061-40d2-8bbe-43b1db954e34")
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
@@ -2445,7 +2467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IND_SMD_ARR:IND_SWPA6020S_SNL"
 			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4344,6 +4366,17 @@
 				)
 			)
 		)
+		(property "Supplier 1" "https://uelectronics.com/producto/resistor-56k-ohm-1-8w-smd-0805-rs-05k6802ft/"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3bb760f6-bb56-4527-8f8b-5d1d1615e26e")
 		)
@@ -6124,7 +6157,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 110.49 93.98 0)
+		(at 110.49 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6135,7 +6168,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebee04de-4c7d-4e0b-8dfa-a6bee73d6f8e")
 		(property "Reference" "#PWR01"
-			(at 110.49 90.17 0)
+			(at 110.49 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 99.06 0)
+			(at 110.49 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6157,7 +6190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 93.98 0)
+			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 93.98 0)
+			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 93.98 0)
+			(at 110.49 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
