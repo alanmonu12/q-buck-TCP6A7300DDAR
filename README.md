@@ -142,6 +142,8 @@ El capacitor de salida $C_3$ nominal de $10\mu F$ operando a $5V$ DC presentará
 - **Cálculo de Etapa de Potencia:** [Basic Calculation of a Buck Converter's Power Stage (SLVA477B)](https://www.ti.com/lit/an/slva477b/slva477b.pdf) - Texas Instruments. Documento base para las ecuaciones de selección del inductor ($L$) y capacitores de entrada/salida ($C_{IN}$, $C_{OUT}$).
 - **Análisis de Estabilidad (Bode Plot):** [How to Measure the Loop Transfer Function of Power Supplies (AN-1889 / SNVA364A)](https://www.ti.com/lit/an/snva364a/snva364a.pdf) - Texas Instruments. Metodología de la industria para la inyección de pequeña señal y medición de Margen de Fase y Ganancia.
 - **Datasheet Principal:** TCP6A7300DDAR - QSM Semiconductores (Especificaciones preliminares provistas por el fabricante).
+- **Diseño de Filtro de Entrada (EMC/EMI):** [Analysis and Design of Input Filter for DC-DC Circuit (SNVA801)](https://www.ti.com/lit/pdf/snva801) - Texas Instruments. Metodología para atenuar ruido conducido y consideraciones de estabilidad basadas en el Teorema de Middlebrook.
+- **Filtro de Salida (Segunda Etapa LC):** [Design a Second-stage Filter for Sensitive Applications (SSZT824)](https://www.ti.com/lit/pdf/sszt824) - Texas Instruments. Técnicas de amortiguamiento (Damping) para evitar inestabilidad en el lazo de control al añadir un filtro LC secundario.
 
 ## License
 
