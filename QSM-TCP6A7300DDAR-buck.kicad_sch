@@ -355,7 +355,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical_ARR:MountingHole"
+		(symbol "Mechanical_ARR:MountingHole_conn"
 			(pin_names
 				(offset 1.016)
 			)
@@ -428,7 +428,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_conn_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -438,6 +438,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_conn_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
 					)
 				)
 			)
@@ -2302,6 +2322,12 @@
 		(uuid "c4c2352d-061d-4459-9c1f-de7903c702fb")
 	)
 	(junction
+		(at 240.03 74.93)
+		(diameter 0)
+		(color 108 0 2 1)
+		(uuid "17027079-7fe9-411c-bc9a-03484dea941f")
+	)
+	(junction
 		(at 69.85 72.39)
 		(diameter 0)
 		(color 108 0 2 1)
@@ -2316,7 +2342,7 @@
 	(junction
 		(at 33.02 72.39)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "35c18f9f-d106-4bda-a39e-9c144786d382")
 	)
 	(junction
@@ -2368,12 +2394,6 @@
 		(uuid "9124e69c-9f12-49fc-95be-3d341f52fc66")
 	)
 	(junction
-		(at 259.08 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92c801b0-1c0c-4b21-b323-d9c131819cd6")
-	)
-	(junction
 		(at 116.84 85.09)
 		(diameter 0)
 		(color 108 0 2 1)
@@ -2394,7 +2414,7 @@
 	(junction
 		(at 149.86 69.85)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 108 0 2 1)
 		(uuid "b29e495e-26a5-46b8-97ea-edb1eb4cc06f")
 	)
 	(junction
@@ -2408,12 +2428,6 @@
 		(diameter 0)
 		(color 255 244 0 1)
 		(uuid "b6fdddfa-9176-436c-906a-67e7a109eeca")
-	)
-	(junction
-		(at 247.65 74.93)
-		(diameter 0)
-		(color 108 0 2 1)
-		(uuid "c66fa7b8-4632-4fdf-993e-6d5fd4118f30")
 	)
 	(junction
 		(at 154.94 95.25)
@@ -2434,19 +2448,24 @@
 		(uuid "fe695266-fb26-4ce6-b0cd-4776c6f6cce8")
 	)
 	(no_connect
+		(at 59.69 172.72)
+		(uuid "4939e2dc-89fd-42c1-a5e0-52da3d06c1c9")
+	)
+	(no_connect
+		(at 105.41 172.72)
+		(uuid "63432139-dd58-4e30-be70-cda658493ff5")
+	)
+	(no_connect
+		(at 128.27 172.72)
+		(uuid "ac868de4-94d1-405a-b620-242618d08025")
+	)
+	(no_connect
 		(at 138.43 82.55)
 		(uuid "b40a315d-59a1-4c1f-8f33-b90832f76818")
 	)
-	(wire
-		(pts
-			(xy 259.08 74.93) (xy 247.65 74.93)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 108 0 2 1)
-		)
-		(uuid "012bda0d-dc2f-4113-b4f8-94b3f83294da")
+	(no_connect
+		(at 82.55 172.72)
+		(uuid "fa9e1715-8bb9-4c0e-87bf-4c9bed61f5b7")
 	)
 	(wire
 		(pts
@@ -2641,27 +2660,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 74.93) (xy 247.65 77.47)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 108 0 2 1)
-		)
-		(uuid "3c175001-f7a9-4ca3-b3d7-8b74045ae898")
-	)
-	(wire
-		(pts
-			(xy 100.33 107.95) (xy 100.33 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eaacc23-e92b-43e6-a406-f352a4257cee")
-	)
-	(wire
-		(pts
 			(xy 176.53 74.93) (xy 176.53 77.47)
 		)
 		(stroke
@@ -2703,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 72.39) (xy 259.08 74.93)
+			(xy 240.03 72.39) (xy 240.03 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -2789,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 74.93) (xy 260.35 74.93)
+			(xy 240.03 74.93) (xy 241.3 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -2921,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 77.47) (xy 260.35 77.47)
+			(xy 240.03 77.47) (xy 241.3 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2989,8 +2987,9 @@
 			(xy 30.48 72.39) (xy 33.02 72.39)
 		)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
+			(color 108 0 2 1)
 		)
 		(uuid "a965eb38-f01d-4e42-b87a-0f24c3b16438")
 	)
@@ -3078,28 +3077,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 74.93) (xy 247.65 74.93)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 108 0 2 1)
-		)
-		(uuid "ba7c1002-5a42-4c92-bf01-17012c340274")
-	)
-	(wire
-		(pts
-			(xy 247.65 85.09) (xy 247.65 88.9)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 108 0 2 1)
-		)
-		(uuid "bef7043b-f0d1-4e48-ab0d-cfbcc6788de2")
-	)
-	(wire
-		(pts
 			(xy 149.86 74.93) (xy 152.4 74.93)
 		)
 		(stroke
@@ -3176,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 74.93) (xy 234.95 74.93)
+			(xy 227.33 74.93) (xy 240.03 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -3187,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 83.82) (xy 259.08 77.47)
+			(xy 240.03 83.82) (xy 240.03 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3439,8 +3416,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical_ARR:MountingHole_conn")
+		(at 59.69 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "043aa565-f550-444d-8131-76e7e936feb9")
+		(property "Reference" "H1"
+			(at 62.23 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 62.23 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Hole_ARR:MountingHole_3.2mm_M3_Pad_Via"
+			(at 59.69 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3eab9b0a-bd05-4011-9a23-5368fb1e5847")
+		)
+		(instances
+			(project ""
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical_ARR:MountingHole_conn")
+		(at 82.55 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e45025c-fed9-460c-8737-3b653150c5d2")
+		(property "Reference" "H2"
+			(at 85.09 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 85.09 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Hole_ARR:MountingHole_3.2mm_M3_Pad_Via"
+			(at 82.55 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f54b3f5-bfac-4b6d-a716-b6e6621eb947")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_THT_ARR:691322310002")
-		(at 265.43 73.66 270)
+		(at 246.38 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3451,7 +3586,7 @@
 		(fields_autoplaced yes)
 		(uuid "1efea60e-753c-470c-81f9-f384488ca37d")
 		(property "Reference" "J2"
-			(at 266.7 74.9299 90)
+			(at 247.65 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3462,7 +3597,7 @@
 			)
 		)
 		(property "Value" "691322310002"
-			(at 266.7 77.4699 90)
+			(at 247.65 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3472,8 +3607,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "691322310002:691322310002"
-			(at 265.43 77.47 0)
+		(property "Footprint" "Connector_THT_ARR:691322310002"
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 73.66 0)
+			(at 246.38 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 73.66 0)
+			(at 246.38 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +3642,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3519,7 +3654,7 @@
 			)
 		)
 		(property "Description_1" "322; 3.81mm Pitch Straight Pluggable Term Block, PCB Header, Through Hole, 2 Way | Wurth Electronics 691322310002"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3531,7 +3666,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3678,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3555,7 +3690,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691322310002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,7 +3702,7 @@
 			)
 		)
 		(property "MP" "691322310002"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3579,7 +3714,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,7 +3726,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/691322310002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 265.43 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,82 +4480,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_ARR:MountingHole")
-		(at 58.42 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bb60755-271e-4c37-b342-4b445c75ce3f")
-		(property "Reference" "H1"
-			(at 60.96 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 60.96 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project ""
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Passive_ARR:C_Generic")
 		(at 107.95 76.2 0)
 		(unit 1)
@@ -4665,7 +4724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "691322310002:691322310002"
+		(property "Footprint" "Connector_THT_ARR:691322310002"
 			(at 25.4 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4844,7 +4903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test_Point_ARR:TestPoint_Pad_D1.0mm"
 			(at 232.41 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5476,84 +5535,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_ARR:MountingHole")
-		(at 78.74 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62d138cc-3588-4439-a29c-4c3aceee759b")
-		(property "Reference" "H2"
-			(at 81.28 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 81.28 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "QSM-TCP6A7300DDAR-buck"
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 100.33 113.03 0)
+		(at 33.02 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5564,7 +5547,7 @@
 		(fields_autoplaced yes)
 		(uuid "646b0495-652a-4659-bc7f-6e6b06d037a3")
 		(property "Reference" "#PWR016"
-			(at 100.33 109.22 0)
+			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 118.11 0)
+			(at 33.02 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5586,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 113.03 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 113.03 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 113.03 0)
+			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,19 +5827,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Passive_ARR:C_Generic")
-		(at 247.65 81.28 0)
+		(lib_id "Mechanical_ARR:MountingHole_conn")
+		(at 105.41 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "780bf52a-79e6-42eb-9b83-256aa943f5b1")
-		(property "Reference" "C11"
-			(at 251.46 80.0099 0)
+		(uuid "7629535b-6805-4464-9e2c-fa065ebd9ee6")
+		(property "Reference" "H3"
+			(at 107.95 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5866,8 +5849,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 251.46 82.5499 0)
+		(property "Value" "MountingHole"
+			(at 107.95 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5877,8 +5860,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_ARR:C_0805_2012Metric"
-			(at 247.65 81.28 0)
+		(property "Footprint" "Mounting_Hole_ARR:MountingHole_3.2mm_M3_Pad_Via"
+			(at 105.41 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5888,8 +5871,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://uelectronics.com/wp-content/uploads/2021/04/AR1994-Capacitor-ceramico-0805-100nF-50V-CC0805KRX7R9BB104-Data.pdf"
-			(at 247.65 81.28 0)
+		(property "Datasheet" ""
+			(at 105.41 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5899,140 +5882,8 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor Cerámico 0805 100nF 50V"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part number" "CC0805KRX7R9BB104"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "± 10%"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature" "–55 °C to +125 °C "
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AEC compliant" "No"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FIT" "-"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0805"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimension" ""
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 1" "https://uelectronics.com/producto/cc0805krx7r9bb104-capacitor-ceramico-0805-100nf-50v/"
-			(at 247.65 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 247.65 81.28 0)
+		(property "Description" ""
+			(at 105.41 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6043,15 +5894,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "75e23c08-0aba-4b0b-8007-cc3d6e3c2449")
-		)
-		(pin "2"
-			(uuid "b8c89ed8-1a2f-431e-a101-47242244d6eb")
+			(uuid "d043f9c5-84eb-41f4-a954-57fc970764a2")
 		)
 		(instances
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "C11")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6090,7 +5938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT_ARR:TRIM_3362P-1-503LF"
+		(property "Footprint" "Resistor_THT_ARR:POT_TC33_3X3P8_BRN"
 			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6136,7 +5984,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Part number" "3362P"
+		(property "Part number" "TC33X-2-103E"
 			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6148,7 +5996,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Supplier 1" "https://uelectronics.com/producto/potenciometro-de-precision-3362p/"
+		(property "Supplier 1" "https://uelectronics.com/producto/trimpot-smd-10k-ohm-3x3-8mm-tc33x-2-103e/"
 			(at 168.91 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -6179,7 +6027,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:VCC")
-		(at 259.08 69.85 0)
+		(at 240.03 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6189,7 +6037,7 @@
 		(dnp no)
 		(uuid "877edf54-b061-4c8a-8410-b66534f2a28d")
 		(property "Reference" "#PWR08"
-			(at 262.89 66.04 0)
+			(at 243.84 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6200,7 +6048,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 259.08 68.58 0)
+			(at 240.03 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6210,7 +6058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 69.85 0)
+			(at 240.03 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,7 +6069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 69.85 0)
+			(at 240.03 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6080,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 69.85 0)
+			(at 240.03 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,7 +6181,7 @@
 	)
 	(symbol
 		(lib_id "Passive_ARR:TestPoint")
-		(at 100.33 107.95 0)
+		(at 33.02 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6343,7 +6191,7 @@
 		(dnp no)
 		(uuid "8c8075c7-28bf-441f-ac87-9d0dad3b5ef0")
 		(property "Reference" "TP6"
-			(at 98.806 102.87 0)
+			(at 31.496 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6354,7 +6202,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 95.758 101.854 0)
+			(at 28.448 92.964 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6365,8 +6213,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 105.41 107.95 0)
+		(property "Footprint" "Test_Point_ARR:TestPoint_Pad_D1.0mm"
+			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6377,7 +6225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 107.95 0)
+			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6388,7 +6236,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 100.33 107.95 0)
+			(at 33.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6736,7 +6584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test_Point_ARR:TestPoint_Pad_D1.0mm"
 			(at 52.07 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6815,7 +6663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test_Point_ARR:TestPoint_Pad_D1.0mm"
 			(at 74.93 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7377,196 +7225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Passive_ARR:FB_Generic")
-		(at 234.95 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a514923e-e2dd-43ed-a17d-6c6fa56db4b4")
-		(property "Reference" "FB2"
-			(at 239.395 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 234.95 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD_ARR:R_0805_2012Metric"
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part number" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Number of Lines" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Impedance @ Frequency" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current Rating" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DC Resistance" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimension" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 1" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 234.95 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "061e4dc1-9aaa-4fbd-a33a-468f462a130b")
-		)
-		(pin "2"
-			(uuid "bf5e0bdd-a1f1-468e-8ec7-f3a6629e75e5")
-		)
-		(instances
-			(project "QSM-TCP6A7300DDAR-buck"
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Passive_ARR:C_Generic")
 		(at 143.51 69.85 90)
 		(unit 1)
@@ -7857,6 +7515,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical_ARR:MountingHole_conn")
+		(at 128.27 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd1125d-e934-4477-9424-15d05501cea4")
+		(property "Reference" "H4"
+			(at 130.81 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 130.81 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mounting_Hole_ARR:MountingHole_3.2mm_M3_Pad_Via"
+			(at 128.27 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f72b7407-bab5-4013-b099-fd3348fbf5f7")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Passive_ARR:C_Generic")
 		(at 227.33 81.28 0)
 		(unit 1)
@@ -8104,7 +7841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test_Point_ARR:TestPoint_Pad_D1.0mm"
 			(at 154.94 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8144,85 +7881,6 @@
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_sym_ARR:GND")
-		(at 247.65 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b65559fb-cdf1-4ee7-b007-2535c28a7c07")
-		(property "Reference" "#PWR013"
-			(at 247.65 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 247.65 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "0"
-			(uuid "aa91ab07-114e-45dd-9b04-98c0019d1448")
-		)
-		(instances
-			(project "QSM-TCP6A7300DDAR-buck"
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8476,7 +8134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test_Point_ARR:TestPoint_Pad_D1.0mm"
 			(at 160.02 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8769,7 +8427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial_ARR:Fiducial_0.75mm_Mask2.25mm"
+		(property "Footprint" "Fiducial_ARR:Fiducial_0.5mm_Mask1.5mm"
 			(at 17.78 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8924,7 +8582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial_ARR:Fiducial_0.75mm_Mask2.25mm"
+		(property "Footprint" "Fiducial_ARR:Fiducial_0.5mm_Mask1.5mm"
 			(at 35.56 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8961,82 +8619,6 @@
 			(project ""
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical_ARR:MountingHole")
-		(at 119.38 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e57729eb-f899-4cce-8f75-f25f7cf87fac")
-		(property "Reference" "H4"
-			(at 121.92 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 121.92 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "QSM-TCP6A7300DDAR-buck"
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9246,7 +8828,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 259.08 86.36 0)
+		(at 240.03 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9257,7 +8839,7 @@
 		(fields_autoplaced yes)
 		(uuid "e80e25a2-a971-4f06-b863-a3aa0fe6a4a4")
 		(property "Reference" "#PWR015"
-			(at 259.08 82.55 0)
+			(at 240.03 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,7 +8850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 91.44 0)
+			(at 240.03 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -9279,7 +8861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 86.36 0)
+			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9290,7 +8872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 86.36 0)
+			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9301,7 +8883,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 86.36 0)
+			(at 240.03 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9476,82 +9058,6 @@
 			(project ""
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical_ARR:MountingHole")
-		(at 99.06 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee452592-b0b1-4698-b190-313f0b424b18")
-		(property "Reference" "H3"
-			(at 101.6 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 101.6 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "QSM-TCP6A7300DDAR-buck"
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "H3")
 					(unit 1)
 				)
 			)
