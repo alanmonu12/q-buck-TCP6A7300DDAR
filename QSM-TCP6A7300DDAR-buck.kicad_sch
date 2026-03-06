@@ -12,6 +12,455 @@
 		(comment 1 "Draft")
 	)
 	(lib_symbols
+		(symbol "Connector_SMD_ARR:BM02B-SRSS-TB_LFSN"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 5.842 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BM02B-SRSS-TB LFSN"
+				(at 8.128 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Connector_SMD_ARR:BM02B-SRSS-TB_JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "BM02B-SRSS-TB LFSN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" "https://uelectronics.com/producto/conectores-sh1-0mm-verticales/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 2" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part number" "BM02B-SRSS-TB LFSN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST Sales America Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BM02B-SRSS-TB (LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CONN_BM02B-SRSS-TB_JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BM02B-SRSS-TB_LFSN_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BM02B-SRSS-TB_LFSN_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_THT_ARR:691322310002"
 			(pin_names
 				(offset 1.016)
@@ -2322,7 +2771,13 @@
 		(uuid "c4c2352d-061d-4459-9c1f-de7903c702fb")
 	)
 	(junction
-		(at 240.03 74.93)
+		(at 173.99 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "002f7ede-666f-48c6-affe-c07923a27d8d")
+	)
+	(junction
+		(at 245.11 74.93)
 		(diameter 0)
 		(color 108 0 2 1)
 		(uuid "17027079-7fe9-411c-bc9a-03484dea941f")
@@ -2332,6 +2787,12 @@
 		(diameter 0)
 		(color 108 0 2 1)
 		(uuid "1b0fa3fd-a0c9-4b41-9ce1-654265fbd194")
+	)
+	(junction
+		(at 173.99 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e9ee8b4-c408-45c3-a1f3-3f8441945517")
 	)
 	(junction
 		(at 118.11 72.39)
@@ -2352,10 +2813,10 @@
 		(uuid "4121d575-2803-41c3-8f15-698e8bbeb4b6")
 	)
 	(junction
-		(at 184.15 74.93)
+		(at 166.37 74.93)
 		(diameter 0)
 		(color 108 0 2 1)
-		(uuid "52e237fa-b8a2-48c8-b77b-69c51b013d30")
+		(uuid "505385ca-96fe-46de-9d8a-9d792373354d")
 	)
 	(junction
 		(at 149.86 74.93)
@@ -2364,10 +2825,16 @@
 		(uuid "543746bf-ffc2-45cc-a04b-974fa9c73b6c")
 	)
 	(junction
-		(at 168.91 80.01)
+		(at 166.37 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60c311e7-bff8-4762-99d4-eff2395867c6")
+	)
+	(junction
+		(at 173.99 95.25)
+		(diameter 0)
+		(color 255 244 0 1)
+		(uuid "673df119-715b-4130-87b4-bb1dccf914bb")
 	)
 	(junction
 		(at 46.99 72.39)
@@ -2376,22 +2843,22 @@
 		(uuid "6f396804-f126-4abd-b483-0379bbbd1673")
 	)
 	(junction
-		(at 214.63 74.93)
+		(at 219.71 74.93)
 		(diameter 0)
 		(color 108 0 2 1)
 		(uuid "70dd2b8b-212c-4240-bd36-6f0a7afcf166")
 	)
 	(junction
-		(at 168.91 74.93)
+		(at 193.04 74.93)
 		(diameter 0)
-		(color 108 0 2 1)
-		(uuid "91161c27-fea2-4f2b-bb86-8b9d2faa103f")
+		(color 0 0 0 0)
+		(uuid "7ecd93ca-5c3d-4431-a5af-eaaa6080c532")
 	)
 	(junction
-		(at 168.91 95.25)
+		(at 166.37 95.25)
 		(diameter 0)
 		(color 255 244 0 1)
-		(uuid "9124e69c-9f12-49fc-95be-3d341f52fc66")
+		(uuid "9275fdff-ae5b-4fd8-a037-e80d35d00519")
 	)
 	(junction
 		(at 116.84 85.09)
@@ -2406,7 +2873,7 @@
 		(uuid "adbcee2f-090e-41ca-b7f9-7c5f789e5914")
 	)
 	(junction
-		(at 227.33 74.93)
+		(at 232.41 74.93)
 		(diameter 0)
 		(color 108 0 2 1)
 		(uuid "afebe5f0-e2fe-4f1a-b00c-881cb97d40d5")
@@ -2418,22 +2885,16 @@
 		(uuid "b29e495e-26a5-46b8-97ea-edb1eb4cc06f")
 	)
 	(junction
-		(at 176.53 74.93)
-		(diameter 0)
-		(color 108 0 2 1)
-		(uuid "b654920c-f8d3-4a7d-8700-443e742f4ccc")
-	)
-	(junction
-		(at 176.53 95.25)
-		(diameter 0)
-		(color 255 244 0 1)
-		(uuid "b6fdddfa-9176-436c-906a-67e7a109eeca")
-	)
-	(junction
 		(at 154.94 95.25)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 244 0 1)
 		(uuid "c671b863-c182-4f33-b4bb-9e64145bd970")
+	)
+	(junction
+		(at 173.99 74.93)
+		(diameter 0)
+		(color 108 0 2 1)
+		(uuid "fd26444a-04fa-4d7b-a58d-6cb1aa9a8b72")
 	)
 	(junction
 		(at 107.95 72.39)
@@ -2442,34 +2903,18 @@
 		(uuid "fe299aff-7fd9-49a2-8ef4-b71899919f3e")
 	)
 	(junction
-		(at 201.93 74.93)
+		(at 207.01 74.93)
 		(diameter 0)
 		(color 108 0 2 1)
 		(uuid "fe695266-fb26-4ce6-b0cd-4776c6f6cce8")
 	)
 	(no_connect
-		(at 59.69 172.72)
-		(uuid "4939e2dc-89fd-42c1-a5e0-52da3d06c1c9")
-	)
-	(no_connect
-		(at 105.41 172.72)
-		(uuid "63432139-dd58-4e30-be70-cda658493ff5")
-	)
-	(no_connect
-		(at 128.27 172.72)
-		(uuid "ac868de4-94d1-405a-b620-242618d08025")
-	)
-	(no_connect
 		(at 138.43 82.55)
 		(uuid "b40a315d-59a1-4c1f-8f33-b90832f76818")
 	)
-	(no_connect
-		(at 82.55 172.72)
-		(uuid "fa9e1715-8bb9-4c0e-87bf-4c9bed61f5b7")
-	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 168.91 80.01)
+			(xy 161.29 80.01) (xy 166.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2521,6 +2966,17 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 244 0 1)
+		)
+		(uuid "170df933-f982-4f87-a810-f240497cc1ca")
+	)
+	(wire
+		(pts
 			(xy 107.95 72.39) (xy 118.11 72.39)
 		)
 		(stroke
@@ -2532,18 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 74.93) (xy 201.93 74.93)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 108 0 2 1)
-		)
-		(uuid "1bb23536-c129-4867-b564-49041016ff8a")
-	)
-	(wire
-		(pts
-			(xy 161.29 74.93) (xy 168.91 74.93)
+			(xy 161.29 74.93) (xy 166.37 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -2562,6 +3007,17 @@
 			(color 108 0 2 1)
 		)
 		(uuid "22938bd1-4909-487f-b9ab-65fb09e52930")
+	)
+	(wire
+		(pts
+			(xy 173.99 74.93) (xy 193.04 74.93)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 108 0 2 1)
+		)
+		(uuid "259bc4b4-6c90-41a0-9e32-21f9bbf8f491")
 	)
 	(wire
 		(pts
@@ -2598,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 77.47) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3bf97c-cddd-43c1-8af8-9165bfb27b47")
+	)
+	(wire
+		(pts
 			(xy 154.94 93.98) (xy 154.94 95.25)
 		)
 		(stroke
@@ -2608,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 74.93) (xy 184.15 82.55)
+			(xy 193.04 74.93) (xy 193.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +3126,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 176.53 77.47)
+			(xy 176.53 77.47) (xy 173.99 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4332ecb6-8ee8-4ec2-a35f-cd513677c552")
+	)
+	(wire
+		(pts
+			(xy 173.99 74.93) (xy 173.99 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 72.39) (xy 240.03 74.93)
+			(xy 245.11 72.39) (xy 245.11 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -2722,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 72.39) (xy 227.33 74.93)
+			(xy 232.41 72.39) (xy 232.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 95.25) (xy 184.15 90.17)
+			(xy 193.04 95.25) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0.381)
@@ -2754,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 85.09) (xy 214.63 88.9)
+			(xy 219.71 85.09) (xy 219.71 88.9)
 		)
 		(stroke
 			(width 0.381)
@@ -2787,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 74.93) (xy 241.3 74.93)
+			(xy 245.11 74.93) (xy 246.38 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -2798,7 +3274,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 92.71) (xy 176.53 95.25)
+			(xy 173.99 92.71) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0.381)
@@ -2820,17 +3296,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 176.53 74.93)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 108 0 2 1)
-		)
-		(uuid "798c1872-d90d-4c88-9046-b98045d67727")
-	)
-	(wire
-		(pts
 			(xy 154.94 95.25) (xy 143.51 95.25)
 		)
 		(stroke
@@ -2842,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 74.93) (xy 201.93 77.47)
+			(xy 207.01 74.93) (xy 207.01 77.47)
 		)
 		(stroke
 			(width 0.381)
@@ -2853,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 74.93) (xy 214.63 74.93)
+			(xy 207.01 74.93) (xy 219.71 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -2864,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 74.93) (xy 214.63 77.47)
+			(xy 219.71 74.93) (xy 219.71 77.47)
 		)
 		(stroke
 			(width 0.381)
@@ -2875,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 74.93) (xy 227.33 77.47)
+			(xy 232.41 74.93) (xy 232.41 77.47)
 		)
 		(stroke
 			(width 0.381)
@@ -2919,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 77.47) (xy 241.3 77.47)
+			(xy 245.11 77.47) (xy 246.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2962,18 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 176.53 95.25)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 255 244 0 1)
-		)
-		(uuid "99045d83-663d-4168-99e8-0bf200abdc5f")
-	)
-	(wire
-		(pts
-			(xy 227.33 85.09) (xy 227.33 88.9)
+			(xy 232.41 85.09) (xy 232.41 88.9)
 		)
 		(stroke
 			(width 0.381)
@@ -2995,13 +3449,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 86.36) (xy 163.83 80.01)
+			(xy 161.29 86.36) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "abeeead9-5cd1-43c8-bf91-27d9ee60ed50")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae457ddf-6d24-4d3a-97f3-5dfa8ee12bf1")
 	)
 	(wire
 		(pts
@@ -3015,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 74.93) (xy 214.63 74.93)
+			(xy 232.41 74.93) (xy 219.71 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -3043,6 +3507,16 @@
 			(type default)
 		)
 		(uuid "b3f33de0-d254-4f05-bdb9-277f019d5b8d")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f191aa-6954-4be3-aaec-ace68b2c0f1e")
 	)
 	(wire
 		(pts
@@ -3088,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 85.09) (xy 201.93 88.9)
+			(xy 207.01 85.09) (xy 207.01 88.9)
 		)
 		(stroke
 			(width 0.381)
@@ -3099,14 +3573,14 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 184.15 74.93)
+			(xy 193.04 74.93) (xy 207.01 74.93)
 		)
 		(stroke
 			(width 0.381)
 			(type default)
 			(color 108 0 2 1)
 		)
-		(uuid "c89c1cf3-046e-470f-a430-1b419093cc58")
+		(uuid "c53e37b7-f9b1-4b3e-8732-9857720e74ec")
 	)
 	(wire
 		(pts
@@ -3121,6 +3595,17 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 74.93) (xy 173.99 74.93)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 108 0 2 1)
+		)
+		(uuid "dca49c46-0b77-4d65-b7bc-af69b5524726")
+	)
+	(wire
+		(pts
 			(xy 82.55 80.01) (xy 82.55 82.55)
 		)
 		(stroke
@@ -3129,6 +3614,17 @@
 			(color 108 0 2 1)
 		)
 		(uuid "ddb32043-d8b5-43be-89b0-144c50a283de")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+			(color 255 244 0 1)
+		)
+		(uuid "df30971e-727d-4daf-aa9c-8df660eccb21")
 	)
 	(polyline
 		(pts
@@ -3142,18 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 95.25) (xy 184.15 95.25)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 255 244 0 1)
-		)
-		(uuid "e750404a-7dec-4578-9b5d-35881ade8230")
-	)
-	(wire
-		(pts
-			(xy 227.33 74.93) (xy 240.03 74.93)
+			(xy 232.41 74.93) (xy 245.11 74.93)
 		)
 		(stroke
 			(width 0.381)
@@ -3164,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 83.82) (xy 240.03 77.47)
+			(xy 245.11 83.82) (xy 245.11 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 176.53 95.25)
+			(xy 173.99 97.79) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0.381)
@@ -3216,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 154.94 95.25)
+			(xy 166.37 95.25) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0.381)
@@ -3227,7 +3712,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 92.71) (xy 168.91 95.25)
+			(xy 166.37 92.71) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0.381)
@@ -3249,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 168.91 80.01)
+			(xy 166.37 74.93) (xy 166.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3338,7 +3823,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 201.93 91.44 0)
+		(at 207.01 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3349,7 +3834,7 @@
 		(fields_autoplaced yes)
 		(uuid "0427c97b-9ee0-401d-b406-07d2c1fdbb1b")
 		(property "Reference" "#PWR05"
-			(at 201.93 87.63 0)
+			(at 207.01 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +3845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 96.52 0)
+			(at 207.01 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3371,7 +3856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 91.44 0)
+			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 91.44 0)
+			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 91.44 0)
+			(at 207.01 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "Connector_THT_ARR:691322310002")
-		(at 246.38 73.66 270)
+		(at 251.46 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3586,7 +4071,7 @@
 		(fields_autoplaced yes)
 		(uuid "1efea60e-753c-470c-81f9-f384488ca37d")
 		(property "Reference" "J2"
-			(at 247.65 74.9299 90)
+			(at 252.73 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3597,7 +4082,7 @@
 			)
 		)
 		(property "Value" "691322310002"
-			(at 247.65 77.4699 90)
+			(at 252.73 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3608,7 +4093,7 @@
 			)
 		)
 		(property "Footprint" "Connector_THT_ARR:691322310002"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +4105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 73.66 0)
+			(at 251.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +4116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 73.66 0)
+			(at 251.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +4127,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +4139,7 @@
 			)
 		)
 		(property "Description_1" "322; 3.81mm Pitch Straight Pluggable Term Block, PCB Header, Through Hole, 2 Way | Wurth Electronics 691322310002"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +4151,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,7 +4163,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,7 +4175,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691322310002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +4187,7 @@
 			)
 		)
 		(property "MP" "691322310002"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +4199,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +4211,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/691322310002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 246.38 77.47 0)
+			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,7 +4987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 111.76 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD_ARR:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD_ARR:C_1206_3216Metric"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4524,7 +5009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0805X7R105K500DTS_C344178.pdf"
+		(property "Datasheet" "https://uelectronics.com/wp-content/uploads/2021/04/AR2028-Capacitor-ceramico-1206-10uF-50V-CL31B106KBHNNNE-Datasheet.pdf"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4535,7 +5020,7 @@
 				)
 			)
 		)
-		(property "Description" "Capacitor Cerámico 0805 1uF 50V"
+		(property "Description" "Capacitor Cerámico 1206 10uF 50V"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4546,7 +5031,7 @@
 				)
 			)
 		)
-		(property "Part number" "TCC0805X7R105K500DTS"
+		(property "Part number" "CL31B106KBHNNNE"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4557,7 +5042,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC"
+		(property "Manufacturer" "Samsung"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4634,7 +5119,7 @@
 				)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "1206"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4656,7 +5141,7 @@
 				)
 			)
 		)
-		(property "Supplier 1" "https://uelectronics.com/producto/capacitor-ceramico-0805-1uf-50v-tcc0805x7r105k500dts/"
+		(property "Supplier 1" "https://uelectronics.com/producto/cl31b106kbhnnne-capacitor-ceramico-1206-10uf-50v/"
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4870,8 +5355,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_sym_ARR:GND")
+		(at 128.27 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e2d13cd-fe7b-4a1d-8174-200a93d84484")
+		(property "Reference" "#PWR020"
+			(at 128.27 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "e10e4a68-73c6-4900-ba9f-345624622f58")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Passive_ARR:TestPoint")
-		(at 227.33 72.39 0)
+		(at 232.41 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4881,7 +5445,7 @@
 		(dnp no)
 		(uuid "4e780c2c-9bfe-40e4-b9cf-ddb4b4bd7f1f")
 		(property "Reference" "TP4"
-			(at 225.806 67.31 0)
+			(at 230.886 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4892,7 +5456,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 222.758 66.294 0)
+			(at 227.838 66.294 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +5468,7 @@
 			)
 		)
 		(property "Footprint" "Test_Point_ARR:TestPoint_Pad_D1.0mm"
-			(at 232.41 72.39 0)
+			(at 237.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +5479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 72.39 0)
+			(at 237.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +5490,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 227.33 72.39 0)
+			(at 232.41 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5164,7 +5728,7 @@
 	)
 	(symbol
 		(lib_id "Passive_ARR:C_Generic")
-		(at 214.63 81.28 0)
+		(at 219.71 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5175,7 +5739,7 @@
 		(fields_autoplaced yes)
 		(uuid "52e4f019-8eff-4f83-9892-df13ae20f7e5")
 		(property "Reference" "C4"
-			(at 218.44 80.0099 0)
+			(at 223.52 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5186,7 +5750,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 218.44 82.5499 0)
+			(at 223.52 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5197,7 +5761,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD_ARR:C_0805_2012Metric"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5208,7 +5772,7 @@
 			)
 		)
 		(property "Datasheet" "https://uelectronics.com/wp-content/uploads/2021/04/AR1994-Capacitor-ceramico-0805-100nF-50V-CC0805KRX7R9BB104-Data.pdf"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5219,7 +5783,7 @@
 			)
 		)
 		(property "Description" "Capacitor Cerámico 0805 100nF 50V"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +5794,7 @@
 			)
 		)
 		(property "Part number" "CC0805KRX7R9BB104"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,7 +5805,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5252,7 +5816,7 @@
 			)
 		)
 		(property "Tolerance" "± 10%"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5263,7 +5827,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,7 +5838,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5849,7 @@
 			)
 		)
 		(property "Temperature" "–55 °C to +125 °C "
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +5860,7 @@
 			)
 		)
 		(property "AEC compliant" "No"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5871,7 @@
 			)
 		)
 		(property "FIT" "-"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,7 +5882,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +5893,7 @@
 			)
 		)
 		(property "Dimension" ""
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +5904,7 @@
 			)
 		)
 		(property "Supplier 1" "https://uelectronics.com/producto/cc0805krx7r9bb104-capacitor-ceramico-0805-100nf-50v/"
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5915,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 214.63 81.28 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,7 +6179,7 @@
 	)
 	(symbol
 		(lib_id "Passive_ARR:C_Generic")
-		(at 184.15 86.36 0)
+		(at 193.04 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5625,7 +6189,7 @@
 		(dnp no)
 		(uuid "655b52fd-5c43-4b5a-92ee-74186970398a")
 		(property "Reference" "C6"
-			(at 187.198 85.09 0)
+			(at 196.088 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5636,7 +6200,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 187.198 87.63 0)
+			(at 195.326 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5647,7 +6211,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD_ARR:C_0805_2012Metric"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,7 +6222,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241824_Samsung-Electro-Mechanics-CL21C101JBANNNC_C1790.pdf"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5669,7 +6233,7 @@
 			)
 		)
 		(property "Description" "Capacitor Cerámico 0805 100pF 50V"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5680,7 +6244,7 @@
 			)
 		)
 		(property "Part number" "CL21C101JBANNNC"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +6255,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5702,7 +6266,7 @@
 			)
 		)
 		(property "Tolerance" "± 5%"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5713,7 +6277,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5724,7 +6288,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "C0G(NP0)"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,7 +6299,7 @@
 			)
 		)
 		(property "Temperature" "–55 °C to +125 °C "
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,7 +6310,7 @@
 			)
 		)
 		(property "AEC compliant" "No"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5757,7 +6321,7 @@
 			)
 		)
 		(property "FIT" "-"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,7 +6332,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,7 +6343,7 @@
 			)
 		)
 		(property "Dimension" ""
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,7 +6354,7 @@
 			)
 		)
 		(property "Supplier 1" "https://uelectronics.com/producto/capacitor-ceramico-0805-100pf-50v-cl21c101jbannnc/"
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,7 +6365,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 184.15 86.36 0)
+			(at 193.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,6 +6385,220 @@
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_ARR:C_Generic")
+		(at 232.41 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "70073827-3f30-4178-8de1-1121ddeb9049")
+		(property "Reference" "C8"
+			(at 236.22 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD_ARR:C_1206_3216Metric"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://uelectronics.com/wp-content/uploads/2021/04/AR2028-Capacitor-ceramico-1206-10uF-50V-CL31B106KBHNNNE-Datasheet.pdf"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor Cerámico 1206 10uF 50V"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "CL31B106KBHNNNE"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "± 10%"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "–55 °C to +125 °C "
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AEC compliant" "No"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FIT" "-"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimension" ""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "https://uelectronics.com/producto/cl31b106kbhnnne-capacitor-ceramico-1206-10uf-50v/"
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 232.41 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f0a804a6-8863-4ad4-b5ee-0e2c4c1c6427")
+		)
+		(pin "1"
+			(uuid "20de7bb3-30d5-4344-9078-fc549920f5ca")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5906,8 +6684,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_SMD_ARR:BM02B-SRSS-TB_LFSN")
+		(at 176.53 82.55 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "794cfd3e-d233-4915-b805-376dbc9ad443")
+		(property "Reference" "J3"
+			(at 181.61 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM02B-SRSS-TB LFSN"
+			(at 190.5 80.0101 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_SMD_ARR:BM02B-SRSS-TB_JST"
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "BM02B-SRSS-TB LFSN"
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" "https://uelectronics.com/producto/conectores-sh1-0mm-verticales/"
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "BM02B-SRSS-TB LFSN"
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ed36ea4-fd7c-4a66-9146-ad0a4b502889")
+		)
+		(pin "2"
+			(uuid "3c253c68-4360-4763-b71e-0370464e7ce0")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_sym_ARR:GND")
+		(at 105.41 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "821d206c-852f-4af8-8260-794815d400d5")
+		(property "Reference" "#PWR019"
+			(at 105.41 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "2a7f95cb-28c5-4502-9156-4240c2679fe0")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Passive_ARR:POT_Generic")
-		(at 168.91 86.36 270)
+		(at 166.37 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5917,7 +6903,7 @@
 		(dnp yes)
 		(uuid "83eef214-6d6a-432e-bce5-af1aa23c832a")
 		(property "Reference" "R4"
-			(at 164.592 83.312 90)
+			(at 162.052 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5928,7 +6914,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 168.91 83.82 0)
+			(at 166.37 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5939,7 +6925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT_ARR:POT_TC33_3X3P8_BRN"
-			(at 168.91 86.36 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,7 +6937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 86.36 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +6948,7 @@
 			)
 		)
 		(property "Description" "Potenciómetro de Precisión"
-			(at 168.91 86.36 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,7 +6959,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 168.91 86.36 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +6971,7 @@
 			)
 		)
 		(property "Part number" "TC33X-2-103E"
-			(at 168.91 86.36 0)
+			(at 166.37 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,7 +6983,7 @@
 			)
 		)
 		(property "Supplier 1" "https://uelectronics.com/producto/trimpot-smd-10k-ohm-3x3-8mm-tc33x-2-103e/"
-			(at 168.91 86.36 90)
+			(at 166.37 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,7 +7013,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:VCC")
-		(at 240.03 69.85 0)
+		(at 245.11 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6037,7 +7023,7 @@
 		(dnp no)
 		(uuid "877edf54-b061-4c8a-8410-b66534f2a28d")
 		(property "Reference" "#PWR08"
-			(at 243.84 66.04 0)
+			(at 248.92 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6048,7 +7034,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 240.03 68.58 0)
+			(at 245.11 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6058,7 +7044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 69.85 0)
+			(at 245.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,7 +7055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 69.85 0)
+			(at 245.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,7 +7066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 69.85 0)
+			(at 245.11 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6260,7 +7246,7 @@
 	)
 	(symbol
 		(lib_id "Passive_ARR:R_Generic")
-		(at 176.53 88.9 0)
+		(at 173.99 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6270,7 +7256,7 @@
 		(dnp no)
 		(uuid "8f28a7c7-2001-4cdc-905e-5d84689f17d6")
 		(property "Reference" "R1"
-			(at 172.212 88.9 0)
+			(at 169.672 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6281,7 +7267,7 @@
 			)
 		)
 		(property "Value" "56K"
-			(at 176.53 90.424 90)
+			(at 173.99 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6292,7 +7278,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_ARR:R_0805_2012Metric"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +7289,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241434_YAGEO-RC0805JR-0756KL_C137420.pdf"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,7 +7300,7 @@
 			)
 		)
 		(property "Description" "Resistor 56K Ohms 1/8W 0805 SMD"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +7311,7 @@
 			)
 		)
 		(property "Part number" "RC0805JR-0756KL"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +7322,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6347,7 +7333,7 @@
 			)
 		)
 		(property "Temperature" "-55℃ to 155℃"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +7344,7 @@
 			)
 		)
 		(property "Power" "0.125W"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +7355,7 @@
 			)
 		)
 		(property "Tolerance" "± 5%"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6380,7 +7366,7 @@
 			)
 		)
 		(property "Composition" "Thick Film"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +7377,7 @@
 			)
 		)
 		(property "AEC Compliant" ""
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6402,7 +7388,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6413,7 +7399,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6424,7 +7410,7 @@
 			)
 		)
 		(property "Dimension" ""
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6435,7 +7421,7 @@
 			)
 		)
 		(property "FIT" "-"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6446,7 +7432,7 @@
 			)
 		)
 		(property "Supplier 1" "https://uelectronics.com/producto/resistor-56k-ohm-1-8w-smd-0805-rs-05k6802ft/"
-			(at 176.53 88.9 0)
+			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +7459,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 214.63 91.44 0)
+		(at 219.71 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6484,7 +7470,7 @@
 		(fields_autoplaced yes)
 		(uuid "931630a7-4941-41bf-9a02-886f58326b5d")
 		(property "Reference" "#PWR06"
-			(at 214.63 87.63 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6495,7 +7481,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 96.52 0)
+			(at 219.71 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6506,7 +7492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 91.44 0)
+			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,7 +7503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 91.44 0)
+			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +7514,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 91.44 0)
+			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,7 +7797,7 @@
 	)
 	(symbol
 		(lib_id "Passive_ARR:R_Generic")
-		(at 176.53 101.6 0)
+		(at 173.99 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6821,7 +7807,7 @@
 		(dnp no)
 		(uuid "a3b89f40-978d-4582-a113-c40a4cf4fc14")
 		(property "Reference" "R2"
-			(at 172.466 101.6 0)
+			(at 169.926 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6832,7 +7818,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 176.53 103.378 90)
+			(at 173.99 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6843,7 +7829,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_ARR:R_0805_2012Metric"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +7840,7 @@
 			)
 		)
 		(property "Datasheet" "https://uelectronics.com/wp-content/uploads/2021/04/AR2545-Resistor-10kohms-1-8w-SMD-0805-0805W8F1002T5E-Datasheet.pdf"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +7851,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K Ohms 1/8W 0805 SMD"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,7 +7862,7 @@
 			)
 		)
 		(property "Part number" "0805W8F1002T5E"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,7 +7873,7 @@
 			)
 		)
 		(property "Manufacturer" "UR"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6898,7 +7884,7 @@
 			)
 		)
 		(property "Temperature" "-55℃ to 155℃"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,7 +7895,7 @@
 			)
 		)
 		(property "Power" "0.125W"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6920,7 +7906,7 @@
 			)
 		)
 		(property "Tolerance" "± 1%"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +7917,7 @@
 			)
 		)
 		(property "Composition" "Thick Film"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,7 +7928,7 @@
 			)
 		)
 		(property "AEC Compliant" ""
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +7939,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6964,7 +7950,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,7 +7961,7 @@
 			)
 		)
 		(property "Dimension" ""
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6986,7 +7972,7 @@
 			)
 		)
 		(property "FIT" "-"
-			(at 176.53 101.6 0)
+			(at 173.99 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7437,7 +8423,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 176.53 107.95 0)
+		(at 173.99 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7448,7 +8434,7 @@
 		(fields_autoplaced yes)
 		(uuid "a90e0762-2c8d-4cb9-a6e0-faa5af2d5a81")
 		(property "Reference" "#PWR04"
-			(at 176.53 104.14 0)
+			(at 173.99 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +8445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 113.03 0)
+			(at 173.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7470,7 +8456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 107.95 0)
+			(at 173.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7481,7 +8467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 107.95 0)
+			(at 173.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +8478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 107.95 0)
+			(at 173.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7509,6 +8495,85 @@
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_sym_ARR:GND")
+		(at 59.69 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abbb8ec9-e448-48f4-a6d4-9839fe0bf00e")
+		(property "Reference" "#PWR017"
+			(at 59.69 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "afc46aa2-a649-4209-9eae-5415509310b2")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7588,220 +8653,6 @@
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Passive_ARR:C_Generic")
-		(at 227.33 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "adb75ec9-d13b-40c2-adc1-a261a5dba29b")
-		(property "Reference" "C8"
-			(at 231.14 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 231.14 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD_ARR:C_0805_2012Metric"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0805X7R105K500DTS_C344178.pdf"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitor Cerámico 0805 1uF 50V"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part number" "TCC0805X7R105K500DTS"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "± 10%"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature" "–55 °C to +125 °C "
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AEC compliant" "No"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FIT" "-"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0805"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimension" ""
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 1" "https://uelectronics.com/producto/capacitor-ceramico-0805-1uf-50v-tcc0805x7r105k500dts/"
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier 2" ""
-			(at 227.33 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "767e22b8-06e0-42a2-af3f-75dd26546cc9")
-		)
-		(pin "1"
-			(uuid "4dc854fc-0095-403a-8da8-c65e00125f26")
-		)
-		(instances
-			(project "QSM-TCP6A7300DDAR-buck"
-				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7888,7 +8739,7 @@
 	)
 	(symbol
 		(lib_id "Passive_ARR:C_Generic")
-		(at 201.93 81.28 0)
+		(at 207.01 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7899,7 +8750,7 @@
 		(fields_autoplaced yes)
 		(uuid "b69c6fed-e157-45b9-bcbf-161064b3b941")
 		(property "Reference" "C3"
-			(at 205.74 80.0099 0)
+			(at 210.82 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7910,7 +8761,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 205.74 82.5499 0)
+			(at 210.82 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7921,7 +8772,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD_ARR:C_0805_2012Metric"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,7 +8783,7 @@
 			)
 		)
 		(property "Datasheet" "https://uelectronics.com/wp-content/uploads/2021/04/Datasheet-TMK212BBJ106KG-T-C386085.pdf"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +8794,7 @@
 			)
 		)
 		(property "Description" "Capacitor Cerámico 0805 10uF 25V"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +8805,7 @@
 			)
 		)
 		(property "Part number" "TMK212BBJ106KG-T"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7965,7 +8816,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiyo"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7976,7 +8827,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7987,7 +8838,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,7 +8849,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8009,7 +8860,7 @@
 			)
 		)
 		(property "Temperature" "－55～＋ 85"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,7 +8871,7 @@
 			)
 		)
 		(property "AEC compliant" "No"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8031,7 +8882,7 @@
 			)
 		)
 		(property "FIT" "-"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8042,7 +8893,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,7 +8904,7 @@
 			)
 		)
 		(property "Dimension" ""
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +8915,7 @@
 			)
 		)
 		(property "Supplier 1" "https://uelectronics.com/producto/tmk212bbj106kg-t-capacitor-ceramico-0805-10uf-25v/"
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +8926,7 @@
 			)
 		)
 		(property "Supplier 2" ""
-			(at 201.93 81.28 0)
+			(at 207.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8174,6 +9025,85 @@
 			(project "QSM-TCP6A7300DDAR-buck"
 				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_sym_ARR:GND")
+		(at 82.55 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4caa746-7a34-4cd0-8072-591dee60b259")
+		(property "Reference" "#PWR018"
+			(at 82.55 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "0"
+			(uuid "a26cdb96-6a6f-4ad5-b67b-382fdc2aedfe")
+		)
+		(instances
+			(project "QSM-TCP6A7300DDAR-buck"
+				(path "/aa4e3599-df09-4cdf-b666-44ecbee385d3"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8626,7 +9556,7 @@
 	)
 	(symbol
 		(lib_id "Passive_ARR:R_Generic")
-		(at 176.53 81.28 0)
+		(at 173.99 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8636,7 +9566,7 @@
 		(dnp no)
 		(uuid "e7b63d06-c28a-4b25-b725-09622f2275ba")
 		(property "Reference" "R3"
-			(at 172.212 81.28 0)
+			(at 169.672 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8647,7 +9577,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 176.53 82.55 90)
+			(at 173.99 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8658,7 +9588,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_ARR:R_0805_2012Metric"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8669,7 +9599,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081418_RALEC-RTT05000JTP_C103901.pdf"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8680,7 +9610,7 @@
 			)
 		)
 		(property "Description" "Resistor 0 Ohm 1/8W 0805 SMD"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8691,7 +9621,7 @@
 			)
 		)
 		(property "Part number" "RTT05000JTP"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8702,7 +9632,7 @@
 			)
 		)
 		(property "Manufacturer" "RALEC"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8713,7 +9643,7 @@
 			)
 		)
 		(property "Temperature" "－55～＋ 85"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8724,7 +9654,7 @@
 			)
 		)
 		(property "Power" "0.125W"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8735,7 +9665,7 @@
 			)
 		)
 		(property "Tolerance" "± 5%"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8746,7 +9676,7 @@
 			)
 		)
 		(property "Composition" "Thick film"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8757,7 +9687,7 @@
 			)
 		)
 		(property "AEC Compliant" ""
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8768,7 +9698,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +9709,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8790,7 +9720,7 @@
 			)
 		)
 		(property "Dimension" ""
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8801,7 +9731,7 @@
 			)
 		)
 		(property "FIT" "-"
-			(at 176.53 81.28 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8828,7 +9758,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 240.03 86.36 0)
+		(at 245.11 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8839,7 +9769,7 @@
 		(fields_autoplaced yes)
 		(uuid "e80e25a2-a971-4f06-b863-a3aa0fe6a4a4")
 		(property "Reference" "#PWR015"
-			(at 240.03 82.55 0)
+			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8850,7 +9780,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 91.44 0)
+			(at 245.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8861,7 +9791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 86.36 0)
+			(at 245.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8872,7 +9802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 86.36 0)
+			(at 245.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +9813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 86.36 0)
+			(at 245.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9065,7 +9995,7 @@
 	)
 	(symbol
 		(lib_id "Power_sym_ARR:GND")
-		(at 227.33 91.44 0)
+		(at 232.41 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9076,7 +10006,7 @@
 		(fields_autoplaced yes)
 		(uuid "f102e984-45ca-49fb-9eab-e17598f8e263")
 		(property "Reference" "#PWR010"
-			(at 227.33 87.63 0)
+			(at 232.41 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9087,7 +10017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 96.52 0)
+			(at 232.41 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -9098,7 +10028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 91.44 0)
+			(at 232.41 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +10039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 91.44 0)
+			(at 232.41 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +10050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 91.44 0)
+			(at 232.41 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

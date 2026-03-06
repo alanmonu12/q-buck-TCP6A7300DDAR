@@ -2,12 +2,19 @@ View this project on [CADLAB.io](https://cadlab.io/project/30117).
 
 # Q-Buck TCP6A7300DDAR EVAL BOARD MX <!-- omit in toc -->
 
-Una placa de evaluación (PoC) Open Source Hardware diseñada para probar y caracterizar el convertidor Buck síncrono TCP6A7300DDAR, un circuito integrado diseñado en México por QSM Semiconductores.
+![EDA](https://img.shields.io/badge/EDA-KiCad-blue.svg)
+![Stackup](https://img.shields.io/badge/Stackup-4_Layers-purple.svg)
+![Topology](https://img.shields.io/badge/Topology-Sync_Buck_Converter-red.svg)
+![Input](https://img.shields.io/badge/VIN-Up_to_35V-lightgrey.svg)
+![Output](https://img.shields.io/badge/VOUT-5V_%40_1.4A-brightgreen.svg)
+![Frequency](https://img.shields.io/badge/fSW-500_kHz-orange.svg)
+![Status](https://img.shields.io/badge/Status-Layout_WIP-yellow.svg)
 
-Esta placa está pensada como un primer paso ("Proof of Concept")
-para validar el comportamiento térmico, la estabilidad del lazo de control y la eficiencia del IC bajo 
-condiciones reales, con miras a integrarlo en proyectos 
-educativos e industriales más grandes.
+Una placa de evaluación (PoC) Open Source Hardware diseñada para probar y caracterizar el convertidor Buck síncrono TCP6A7300DDAR, un circuito integrado diseñado en México por QSM Semiconductores. Esta placa está pensada como un primer paso ("Proof of Concept") para validar el comportamiento térmico, la estabilidad del lazo de control y la eficiencia del IC bajo  condiciones reales, con miras a integrarlo en proyectos educativos e industriales más grandes.
+
+<p align="center">
+  <img src="./img/PCB-render.png" alt="Render 3D de la Q-Buck TCP6A7300DDAR" width="600">
+</p>
 
 ## Tabla de Contenido <!-- omit in toc -->
 
@@ -16,7 +23,12 @@ educativos e industriales más grandes.
 - [Características de esta Placa de Evaluación](#características-de-esta-placa-de-evaluación)
 - [Ecuaciones y Diseño Preliminar](#ecuaciones-y-diseño-preliminar)
 - [📦 Lista de Materiales (BOM) y Consideraciones de Ensamblaje](#-lista-de-materiales-bom-y-consideraciones-de-ensamblaje)
-  - [⚠️ Limitaciones y Física del Hardware (Derating)](#️-limitaciones-y-física-del-hardware-derating)
+- [⚠️ Limitaciones y Física del Hardware (Derating)](#️-limitaciones-y-física-del-hardware-derating)
+- [📐 Arquitectura del Layout y Control de EMI](#-arquitectura-del-layout-y-control-de-emi)
+  - [1. Minimización del "Hot Loop" (Ruido Magnético - Alto $di/dt$)](#1-minimización-del-hot-loop-ruido-magnético---alto-didt)
+  - [2. Contención del Nodo de Conmutación (Ruido Eléctrico - Alto $dv/dt$)](#2-contención-del-nodo-de-conmutación-ruido-eléctrico---alto-dvdt)
+  - [3. El Lazo de Salida](#3-el-lazo-de-salida)
+  - [4. Integridad de Potencia (Power Integrity) y Desacoplo Concéntrico](#4-integridad-de-potencia-power-integrity-y-desacoplo-concéntrico)
 - [Estado del Proyecto](#estado-del-proyecto)
 - [Referencias y Documentación](#referencias-y-documentación)
 - [License](#license)
@@ -42,6 +54,10 @@ Herramientas Planeadas (Roadmap de Validación):
 - Frecuencia de Conmutación: 500 kHz
 - Voltaje de Referencia ($V_{REF}$): 0.8V
 - Topología: Step-Down (Buck) Síncrono
+
+<p align="center">
+  <img src="./img/circuito-basico.png" alt="Circuito basico" width="600">
+</p>
 
 ## Características de esta Placa de Evaluación
 
@@ -114,7 +130,7 @@ Este prototipo fue diseñado bajo una filosofía de **"tropicalización" y rápi
 > [!IMPORTANT]
 > Los footprints marcados como **DNP** (Do Not Populate) en el esquemático, como $C_8$ y $R_4$, se dejaron intencionalmente vacíos para permitir soldar componentes adicionales durante la fase de validación en banco de pruebas.
 
-### ⚠️ Limitaciones y Física del Hardware (Derating)
+## ⚠️ Limitaciones y Física del Hardware (Derating)
 
 Debido a la selección de componentes orientada a la disponibilidad local, esta placa de evaluación específica tiene las siguientes características operativas:
 
@@ -129,6 +145,35 @@ Dado que $1.828A < 2.1A$ ($I_{sat}$ del inductor), el diseño es seguro y no pro
 Los capacitores cerámicos multicapa (MLCC) en tamaños compactos como el 0805 pierden capacitancia efectiva cuando se someten a un voltaje continuo.
 El capacitor de salida $C_3$ nominal de $10\mu F$ operando a $5V$ DC presentará una capacitancia real cercana a los **$5\mu F - 6\mu F$**. Si durante las pruebas de caracterización se detecta un rizado de voltaje ($\Delta V_{OUT}$) excesivo, se debe poblar el pad auxiliar $C_8$ con un capacitor idéntico en paralelo para recuperar la capacitancia calculada.
 
+## 📐 Arquitectura del Layout y Control de EMI
+
+El ruteo de esta tarjeta de evaluación se diseñó siguiendo estrictamente las directrices de compatibilidad electromagnética (EMC) detalladas en las notas de aplicación (ver referencias). La estrategia física se centra en contener las dos fuentes principales de ruido en un convertidor Buck:
+
+### 1. Minimización del "Hot Loop" (Ruido Magnético - Alto $di/dt$)
+En una topología Buck, el lazo de entrada experimenta corrientes altamente discontinuas, generando transitorios de corriente ($di/dt$) severos durante la conmutación de los MOSFETs internos. 
+Según la Ley de Faraday ($V = L \cdot \frac{di}{dt}$), cualquier inductancia parásita en este trayecto generará picos de voltaje destructivos (Ringing).
+
+Para mitigar esto, el "Hot Loop" (Lazo Caliente) se redujo a su mínima expresión geométrica:
+* El capacitor de derivación de entrada ($C_2$) se colocó lo más cerca físicamente posible de los pines $V_{IN}$ y $GND$ del controlador TCP6A7300DDAR.
+* La conexión de retorno (GND) se realizó mediante un polígono de cobre masivo en la capa Top, conectando directamente el terminal negativo de $C_2$ con el *Exposed Pad* del IC, evitando que la corriente discontinua tenga que viajar por vías hacia planos internos, reduciendo así la inductancia parásita del lazo a unos pocos nanohenrios.
+
+### 2. Contención del Nodo de Conmutación (Ruido Eléctrico - Alto $dv/dt$)
+El nodo `SW` (físicamente la unión entre el IC y el inductor L1) es el punto de mayor estrés de voltaje en la placa. Transiciona violentamente entre $0V$ y $V_{IN}$ (hasta 35V) a una frecuencia de 500 kHz. Este alto $dv/dt$ actúa como un inyector de corriente capacitiva ($I = C \cdot \frac{dv}{dt}$) hacia cualquier pista adyacente.
+
+Las reglas de ruteo aplicadas a este nodo fueron:
+* **Área controlada:** El polígono de cobre del nodo `SW` se diseñó con el ancho suficiente para soportar los 1.4A sin sobrecalentarse, pero se mantuvo lo más pequeño posible para minimizar su capacitancia parásita hacia el plano de tierra y reducir su efecto de "antena" emisora.
+* **Aislamiento de señales sensibles:** La pista de retroalimentación analógica (Feedback / FB) fue ruteada en la capa Bottom (o Capa 3), utilizando el plano interno de GND de la Capa 2 como blindaje electromagnético (escudo Faraday) para evitar que el $dv/dt$ del nodo `SW` inyecte ruido en el amplificador de error del sistema.
+
+### 3. El Lazo de Salida
+A diferencia de la entrada, la corriente que fluye desde el inductor hacia el capacitor de salida ($C_3$) es continua y presenta un $di/dt$ bajo. Por lo tanto, los polígonos de $V_{OUT}$ se diseñaron amplios para priorizar una baja caída de voltaje en DC y facilitar la disipación térmica.
+
+### 4. Integridad de Potencia (Power Integrity) y Desacoplo Concéntrico
+La ubicación de los capacitores de entrada ($C_{IN}$) no se realizó de manera arbitraria, sino aplicando el criterio de impedancia jerárquica para mitigar el ruido electromagnético de alta frecuencia. 
+
+A frecuencias en el rango de los Megahercios (generadas por los tiempos de subida en nanosegundos de los MOSFETs), la Inductancia Equivalente en Serie (ESL) de los componentes domina la impedancia de la red. Siguiendo las recomendaciones de diseño (TI SLYT670 y SNVA803), se aplicó una topología de anillos concéntricos:
+* **Filtro de Alta Frecuencia (Hot Loop Primario):** El capacitor cerámico de menor valor y menor encapsulado físico (0.1 $\mu F$) se colocó a distancia milimétrica de los pines $V_{IN}$ y $GND$ del controlador. Su bajísimo ESL y alta Frecuencia de Autorresonancia (SRF) lo convierten en el camino de menor impedancia para absorber los transitorios más violentos del conmutador.
+* **Filtro Bulk (Hot Loop Secundario):** El capacitor de mayor capacitancia (2.2 $\mu F$) se ubicó inmediatamente detrás. Su función principal es suministrar la demanda energética de baja frecuencia durante el ciclo de trabajo principal de 500 kHz, operando en un lazo de corriente ligeramente mayor sin comprometer las emisiones radiadas del sistema.
+
 ## Estado del Proyecto
 
 - [x] Cálculo de componentes pasivos.
@@ -139,11 +184,14 @@ El capacitor de salida $C_3$ nominal de $10\mu F$ operando a $5V$ DC presentará
 
 ## Referencias y Documentación
 
-- **Cálculo de Etapa de Potencia:** [Basic Calculation of a Buck Converter's Power Stage (SLVA477B)](https://www.ti.com/lit/an/slva477b/slva477b.pdf) - Texas Instruments. Documento base para las ecuaciones de selección del inductor ($L$) y capacitores de entrada/salida ($C_{IN}$, $C_{OUT}$).
-- **Análisis de Estabilidad (Bode Plot):** [How to Measure the Loop Transfer Function of Power Supplies (AN-1889 / SNVA364A)](https://www.ti.com/lit/an/snva364a/snva364a.pdf) - Texas Instruments. Metodología de la industria para la inyección de pequeña señal y medición de Margen de Fase y Ganancia.
+- **Cálculo de Etapa de Potencia:** [Basic Calculation of a Buck Converter's Power Stage (SLVA477B)](https://www.ti.com/lit/an/slva477b/slva477b.pdf) - Texas Instruments.
+- **Análisis de Estabilidad (Bode Plot):** [How to Measure the Loop Transfer Function of Power Supplies (AN-1889 / SNVA364A)](https://www.ti.com/lit/an/snva364a/snva364a.pdf) - Texas Instruments.
 - **Datasheet Principal:** TCP6A7300DDAR - QSM Semiconductores (Especificaciones preliminares provistas por el fabricante).
-- **Diseño de Filtro de Entrada (EMC/EMI):** [Analysis and Design of Input Filter for DC-DC Circuit (SNVA801)](https://www.ti.com/lit/pdf/snva801) - Texas Instruments. Metodología para atenuar ruido conducido y consideraciones de estabilidad basadas en el Teorema de Middlebrook.
-- **Filtro de Salida (Segunda Etapa LC):** [Design a Second-stage Filter for Sensitive Applications (SSZT824)](https://www.ti.com/lit/pdf/sszt824) - Texas Instruments. Técnicas de amortiguamiento (Damping) para evitar inestabilidad en el lazo de control al añadir un filtro LC secundario.
+- **Diseño de Filtro de Entrada (EMC/EMI):** [Analysis and Design of Input Filter for DC-DC Circuit (SNVA801)](https://www.ti.com/lit/pdf/snva801) - Texas Instruments.
+- **Filtro de Salida (Segunda Etapa LC):** - [Design a Second-stage Filter for Sensitive Applications (SSZT824)](https://www.ti.com/lit/pdf/sszt824) - Texas Instruments.
+- **El Fundamento Matemático del ESL y la Frecuencia:** - [How to select input capacitors for a buck converter](https://www.ti.com/lit/an/slyt670/slyt670.pdf) - Texas Instruments.
+- **La Aplicación Física en el Layout:** [Improve High-Current DC/DC Regulator EMI Performance for Free With Optimized Power Stage Layout](https://www.ti.com/lit/ab/snva803/snva803.pdf?ts=1772697173603) - Texas Instruments.
+- **Recomendaciones de layout para convertidores DC/DC:** - [DC-DC PCB Layout Design for EMC](https://www.diodes.com/assets/App-Note-Files/AN1191-DC-DC-PCB-Layout-Design-for-EMC.pdf) - Diode incoporated.
 
 ## License
 
