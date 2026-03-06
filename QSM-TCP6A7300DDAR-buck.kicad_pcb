@@ -132,7 +132,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 193 100)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -11469,7 +11468,7 @@
 				(end 134.167691 170.073411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 4 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "cd1db8f9-3c25-4c6e-9dc1-09e7a84e957d")
 				(effects
 					(font
@@ -11484,7 +11483,7 @@
 				(end 90.474591 170.073411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "29ef9a02-f353-40a0-9752-9fd9ac6313c4")
 				(effects
 					(font
@@ -11499,7 +11498,7 @@
 				(end 118.60305 170.073411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "64d7c59e-094b-4e4e-b95b-900c87567a56")
 				(effects
 					(font
@@ -11514,7 +11513,7 @@
 				(end 134.167691 170.073411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "542574a9-2ba7-477b-9b90-cd3545de24ca")
 				(effects
 					(font
@@ -11529,7 +11528,7 @@
 				(end 55.553062 174.278159)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "f4305f80-6ae1-428d-9d9c-2582bbbd10b2")
 				(effects
 					(font
@@ -11544,7 +11543,7 @@
 				(end 90.474591 174.278159)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c7bff24d-60cc-498b-b8d7-f72e9aa25b0f")
 				(effects
 					(font
@@ -11559,7 +11558,7 @@
 				(end 118.60305 174.278159)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "2df91f21-2b8c-48ab-88a4-671ecc566b76")
 				(effects
 					(font
@@ -11574,7 +11573,7 @@
 				(end 134.167691 174.278159)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "b44d0dde-8e3b-4b30-9458-67320da4c2b4")
 				(effects
 					(font
@@ -11589,7 +11588,7 @@
 				(end 55.553062 178.054335)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "667ac374-92e9-4d4c-84b4-1c2dc21fe4fa")
 				(effects
 					(font
@@ -11604,7 +11603,7 @@
 				(end 90.474591 178.054335)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c11e9188-7184-4a50-88a8-aed4d8a800bf")
 				(effects
 					(font
@@ -11619,7 +11618,7 @@
 				(end 118.60305 178.054335)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "0ce87e20-5c01-4312-8d46-1955fbbe3c22")
 				(effects
 					(font
@@ -11634,7 +11633,7 @@
 				(end 134.167691 178.054335)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "25c1a7db-71fe-4260-8065-1c4c761ecc8f")
 				(effects
 					(font
@@ -11649,7 +11648,7 @@
 				(end 55.553062 182.328862)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "a20be5ab-d591-4b26-8cbd-49a4f8a6c78a")
 				(effects
 					(font
@@ -11664,7 +11663,7 @@
 				(end 90.474591 182.328862)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "2c5f2000-b9fd-4e9f-9b15-5e04f10eb976")
 				(effects
 					(font
@@ -11679,7 +11678,7 @@
 				(end 118.60305 182.328862)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "cffd113f-86ea-485f-9d03-424264b0fe90")
 				(effects
 					(font
@@ -11694,7 +11693,7 @@
 				(end 134.167691 182.328862)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "cefa88f9-d09e-4c9d-bb78-68b145f0e4b9")
 				(effects
 					(font
@@ -11709,7 +11708,7 @@
 				(end 55.553062 186.52625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "4c6f548d-3b9d-4dba-9880-e297ee332430")
 				(effects
 					(font
@@ -11724,7 +11723,7 @@
 				(end 90.474591 186.52625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "7626439b-c40b-4289-b0d2-a2aa5b18dbd7")
 				(effects
 					(font
@@ -11739,7 +11738,7 @@
 				(end 118.60305 186.52625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "136ff95d-e637-409e-9ca4-ba3098f616c4")
 				(effects
 					(font
@@ -11754,7 +11753,7 @@
 				(end 134.167691 186.52625)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "854c2cb0-ebe7-4cea-89f0-4f9a0ac7811a")
 				(effects
 					(font
@@ -11769,7 +11768,7 @@
 				(end 55.553062 190.723638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c685f4e8-cb41-458f-b57c-453e3f6e6080")
 				(effects
 					(font
@@ -11784,7 +11783,7 @@
 				(end 90.474591 190.723638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "a401962f-dbac-4398-9c93-aee234d99826")
 				(effects
 					(font
@@ -11799,7 +11798,7 @@
 				(end 118.60305 190.723638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "104cc75b-d74d-4d78-b97f-f78b41637649")
 				(effects
 					(font
@@ -11814,7 +11813,7 @@
 				(end 134.167691 190.723638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "1ea941de-c24d-4bca-abfc-c9ccf113f269")
 				(effects
 					(font
@@ -11829,7 +11828,7 @@
 				(end 55.553062 194.928638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "4d92b445-114e-4b6b-8411-b3f6195fa1d8")
 				(effects
 					(font
@@ -11844,7 +11843,7 @@
 				(end 90.474591 194.928638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "04b01ec3-f6ce-40c2-8852-0c95cfb83dd9")
 				(effects
 					(font
@@ -11859,7 +11858,7 @@
 				(end 118.60305 194.928638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "30161fdf-ea61-4ddc-8fca-96db7ac7cbe2")
 				(effects
 					(font
@@ -11874,7 +11873,7 @@
 				(end 134.167691 194.928638)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "4dd6d66d-c190-489e-9033-aff404373ee0")
 				(effects
 					(font
@@ -11918,7 +11917,7 @@
 				(end 34.821487 60.273411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "18d5a2d0-c776-4391-810a-2458cdde3ae1")
 				(effects
 					(font
@@ -11933,7 +11932,7 @@
 				(end 60.600417 60.273411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "420d7583-e058-442f-b320-ce4cd6b58817")
 				(effects
 					(font
@@ -11948,7 +11947,7 @@
 				(end 79.593632 60.273411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "583c5b25-8d57-426e-ad25-3d241be92006")
 				(effects
 					(font
@@ -11963,7 +11962,7 @@
 				(end 97.086847 60.273411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "50c83468-f5a5-4d0b-9200-3f6fd485115f")
 				(effects
 					(font
@@ -11978,7 +11977,7 @@
 				(end 114.580063 60.273411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "6c127f32-fa6f-4268-9577-eb3cabfd76f4")
 				(effects
 					(font
@@ -11993,7 +11992,7 @@
 				(end 128.030421 60.273411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "a4bb6c90-bfcc-49f1-a142-7a25dd68ee0d")
 				(effects
 					(font
@@ -12008,7 +12007,7 @@
 				(end 145.683647 60.273411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "727651b3-08eb-4533-b0fc-3356628bcea3")
 				(effects
 					(font
@@ -12023,7 +12022,7 @@
 				(end 34.821487 64.478411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "0fd6b90a-20d9-4f4e-b9e1-6bb6fb54da20")
 				(effects
 					(font
@@ -12038,7 +12037,7 @@
 				(end 60.600417 64.478411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "dceab34a-8a3d-4fb0-8f0c-ad27f4b80a7e")
 				(effects
 					(font
@@ -12053,7 +12052,7 @@
 				(end 79.593632 64.478411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "b7cd2ac9-c47a-47b7-a0be-b044df15a6da")
 				(effects
 					(font
@@ -12068,7 +12067,7 @@
 				(end 97.086847 64.478411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "bdd1b500-3de7-4f2d-9f7d-4c07d14d3e27")
 				(effects
 					(font
@@ -12083,7 +12082,7 @@
 				(end 114.580063 64.478411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c6f1a8e1-fea1-4f2c-b27e-f177aebc8a35")
 				(effects
 					(font
@@ -12098,7 +12097,7 @@
 				(end 128.030421 64.478411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "1bd76f2b-af67-4ee0-b847-6122220ace17")
 				(effects
 					(font
@@ -12113,7 +12112,7 @@
 				(end 145.683647 64.478411)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "2e898cf9-f82a-45a3-b5c8-5a9fb12681ad")
 				(effects
 					(font
@@ -12128,7 +12127,7 @@
 				(end 34.821487 68.675799)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "e05855cf-d8c2-4c4c-a0a1-87acf9dd2b77")
 				(effects
 					(font
@@ -12143,7 +12142,7 @@
 				(end 60.600417 68.675799)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "0a25e112-1275-4f2d-99f4-88808c204115")
 				(effects
 					(font
@@ -12158,7 +12157,7 @@
 				(end 79.593632 68.675799)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "d9b73e05-d7f6-470d-afee-e62cf8d669b5")
 				(effects
 					(font
@@ -12173,7 +12172,7 @@
 				(end 97.086847 68.675799)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "6b269df6-fe67-45b3-8a65-b22e384d108d")
 				(effects
 					(font
@@ -12188,7 +12187,7 @@
 				(end 114.580063 68.675799)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "2e1eaa87-4643-4ee7-aaff-0ddc137b7539")
 				(effects
 					(font
@@ -12203,7 +12202,7 @@
 				(end 128.030421 68.675799)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "f50e29d5-785c-4222-87a4-a50f5fcfed3a")
 				(effects
 					(font
@@ -12218,7 +12217,7 @@
 				(end 145.683647 68.675799)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "ede2069b-f43d-412a-bb9a-b7a545d3118a")
 				(effects
 					(font
@@ -12233,7 +12232,7 @@
 				(end 34.821487 72.873187)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c054312d-a554-49ac-87be-34b8bc3a75a2")
 				(effects
 					(font
@@ -12248,7 +12247,7 @@
 				(end 60.600417 72.873187)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "39986b22-00b8-461d-aae7-6060353cc9e9")
 				(effects
 					(font
@@ -12263,7 +12262,7 @@
 				(end 79.593632 72.873187)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "98ecca20-910f-4513-8383-2af7a9216673")
 				(effects
 					(font
@@ -12278,7 +12277,7 @@
 				(end 97.086847 72.873187)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c771afb9-fbd3-42b0-af60-caa870234a33")
 				(effects
 					(font
@@ -12293,7 +12292,7 @@
 				(end 114.580063 72.873187)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "5e818ce9-361c-4258-87f9-f2dbae43e183")
 				(effects
 					(font
@@ -12308,7 +12307,7 @@
 				(end 128.030421 72.873187)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "3eacf275-5dae-4bee-87c2-df822154743a")
 				(effects
 					(font
@@ -12323,7 +12322,7 @@
 				(end 145.683647 72.873187)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "d5065535-780a-4089-97c7-f865b3b7bdf8")
 				(effects
 					(font
@@ -12338,7 +12337,7 @@
 				(end 34.821487 77.070575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "722bfa10-1740-418c-8a5a-e36f214cb9ee")
 				(effects
 					(font
@@ -12353,7 +12352,7 @@
 				(end 60.600417 77.070575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "660812d5-3a37-46fa-9b55-d5290fc415f6")
 				(effects
 					(font
@@ -12368,7 +12367,7 @@
 				(end 79.593632 77.070575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "bf22a801-5a7e-4a3f-a9fe-4884268d7bce")
 				(effects
 					(font
@@ -12383,7 +12382,7 @@
 				(end 97.086847 77.070575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "3e52eb34-0101-4cf7-b796-a4646ea56a94")
 				(effects
 					(font
@@ -12398,7 +12397,7 @@
 				(end 114.580063 77.070575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "bb8ea84f-fda1-4076-82a8-bdc819e65f9b")
 				(effects
 					(font
@@ -12413,7 +12412,7 @@
 				(end 128.030421 77.070575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "18df45f2-049e-4785-9b14-57a9f0ec1edd")
 				(effects
 					(font
@@ -12428,7 +12427,7 @@
 				(end 145.683647 77.070575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "0db6d0de-88e9-43a3-be1e-2b14714906ec")
 				(effects
 					(font
@@ -12443,7 +12442,7 @@
 				(end 34.821487 81.275575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "9c2d4167-bd20-45c7-82a8-7278f5f9b80a")
 				(effects
 					(font
@@ -12458,7 +12457,7 @@
 				(end 60.600417 81.275575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "468c12c6-974a-4acc-9908-185df9908ebc")
 				(effects
 					(font
@@ -12473,7 +12472,7 @@
 				(end 79.593632 81.275575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "2ae0fa98-1499-41e6-88ba-cccef01c4ee0")
 				(effects
 					(font
@@ -12488,7 +12487,7 @@
 				(end 97.086847 81.275575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "37589b9e-d2cc-47b3-99ec-566c3883a7dc")
 				(effects
 					(font
@@ -12503,7 +12502,7 @@
 				(end 114.580063 81.275575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "a896c6e9-07c3-4116-ab66-0cf0e8883bc4")
 				(effects
 					(font
@@ -12518,7 +12517,7 @@
 				(end 128.030421 81.275575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "77dec620-ea9a-4f63-b788-f4b32168b4ca")
 				(effects
 					(font
@@ -12533,7 +12532,7 @@
 				(end 145.683647 81.275575)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "ff8c0b02-7721-45ec-98ac-cbccd1bbb6aa")
 				(effects
 					(font
@@ -12548,7 +12547,7 @@
 				(end 34.821487 85.472963)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "cddc0377-0702-4e0a-bb93-4bb8dfb0baf7")
 				(effects
 					(font
@@ -12563,7 +12562,7 @@
 				(end 60.600417 85.472963)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "02b33685-d972-4d1b-be9d-a016a037c1e0")
 				(effects
 					(font
@@ -12578,7 +12577,7 @@
 				(end 79.593632 85.472963)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "58c5caf6-c51b-4c6c-a8a1-c5996a855658")
 				(effects
 					(font
@@ -12593,7 +12592,7 @@
 				(end 97.086847 85.472963)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "3b3a25fc-4c32-47aa-afef-a3389677f22f")
 				(effects
 					(font
@@ -12608,7 +12607,7 @@
 				(end 114.580063 85.472963)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "85560204-3bf7-4b1a-915b-6173148ee2c1")
 				(effects
 					(font
@@ -12623,7 +12622,7 @@
 				(end 128.030421 85.472963)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "405ab775-fbb8-442c-8af1-99df30a6ce8f")
 				(effects
 					(font
@@ -12638,7 +12637,7 @@
 				(end 145.683647 85.472963)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "5cc37fb5-74af-4102-b627-7c2f733087b7")
 				(effects
 					(font
@@ -12653,7 +12652,7 @@
 				(end 34.821487 89.670351)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "13d7fa8a-8743-4bb4-8a76-a29accc53164")
 				(effects
 					(font
@@ -12668,7 +12667,7 @@
 				(end 60.600417 89.670351)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "cfd388c5-ced5-4243-9793-d8557b8115af")
 				(effects
 					(font
@@ -12683,7 +12682,7 @@
 				(end 79.593632 89.670351)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "edcb959e-e0fa-4d49-809a-c0c7efd27bc3")
 				(effects
 					(font
@@ -12698,7 +12697,7 @@
 				(end 97.086847 89.670351)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "85cd448a-2eba-4fd2-bea8-a593aaf2da9b")
 				(effects
 					(font
@@ -12713,7 +12712,7 @@
 				(end 114.580063 89.670351)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "7fa7687d-7bf1-496d-b451-5ba3ee7f35b4")
 				(effects
 					(font
@@ -12728,7 +12727,7 @@
 				(end 128.030421 89.670351)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c8c8738b-0c5c-4ecc-b470-45273f915918")
 				(effects
 					(font
@@ -12743,7 +12742,7 @@
 				(end 145.683647 89.670351)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "7ac21773-3a75-4f21-8567-50f0d593e821")
 				(effects
 					(font
@@ -12758,7 +12757,7 @@
 				(end 34.821487 93.867739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "645eabf7-3228-4976-9dd4-c78dac5ce75d")
 				(effects
 					(font
@@ -12773,7 +12772,7 @@
 				(end 60.600417 93.867739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "8fb29740-3a4b-4f1a-8633-7856c0acf5c9")
 				(effects
 					(font
@@ -12788,7 +12787,7 @@
 				(end 79.593632 93.867739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "2710639a-9522-473e-8f0e-21a7bebecb47")
 				(effects
 					(font
@@ -12803,7 +12802,7 @@
 				(end 97.086847 93.867739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "27068c39-3a4f-4dfc-9e6a-4fb1a1e7f897")
 				(effects
 					(font
@@ -12818,7 +12817,7 @@
 				(end 114.580063 93.867739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "1fc68a63-ae00-4494-9e7c-90444cb8bc44")
 				(effects
 					(font
@@ -12833,7 +12832,7 @@
 				(end 128.030421 93.867739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "6eb88b8a-2556-419b-8aaa-0afae3008373")
 				(effects
 					(font
@@ -12848,7 +12847,7 @@
 				(end 145.683647 93.867739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "09d5495d-a255-413e-8777-e37cb1d7d395")
 				(effects
 					(font
@@ -12863,7 +12862,7 @@
 				(end 34.821487 98.072739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "31c17bed-d62e-4ae0-964f-1b514c7264b1")
 				(effects
 					(font
@@ -12878,7 +12877,7 @@
 				(end 60.600417 98.072739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "42ae5657-4f9f-4aeb-a031-b9ec2ba7b359")
 				(effects
 					(font
@@ -12893,7 +12892,7 @@
 				(end 79.593632 98.072739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "f65c91b2-6582-4abc-bad3-483d54de1fcd")
 				(effects
 					(font
@@ -12908,7 +12907,7 @@
 				(end 97.086847 98.072739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "71146197-e1d5-4dbc-bd84-affcaf577dd1")
 				(effects
 					(font
@@ -12923,7 +12922,7 @@
 				(end 114.580063 98.072739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "119d8b43-5221-4c3d-b905-56355a8399e5")
 				(effects
 					(font
@@ -12938,7 +12937,7 @@
 				(end 128.030421 98.072739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "ed7b417f-0e0b-44ce-a761-31b9acfa196a")
 				(effects
 					(font
@@ -12953,7 +12952,7 @@
 				(end 145.683647 98.072739)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "057005b2-719e-40c3-96b0-cfa03d9ec13b")
 				(effects
 					(font
@@ -12968,7 +12967,7 @@
 				(end 34.821487 102.270127)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "056ef70c-7655-4f9f-8405-0e58152266a5")
 				(effects
 					(font
@@ -12983,7 +12982,7 @@
 				(end 60.600417 102.270127)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "3079609c-9a0b-4d1d-bf66-82b7524f147e")
 				(effects
 					(font
@@ -12998,7 +12997,7 @@
 				(end 79.593632 102.270127)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "4dd8bc77-b94e-4c59-8041-95f134f32ac6")
 				(effects
 					(font
@@ -13013,7 +13012,7 @@
 				(end 97.086847 102.270127)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "086beb98-cf99-4ead-ad7f-d99097cbba3f")
 				(effects
 					(font
@@ -13028,7 +13027,7 @@
 				(end 114.580063 102.270127)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "bf6f0882-d503-4dbd-9f72-565f5b13cc20")
 				(effects
 					(font
@@ -13043,7 +13042,7 @@
 				(end 128.030421 102.270127)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "b34740db-8fa2-4e1a-ba58-8d6e61bba3b9")
 				(effects
 					(font
@@ -13058,7 +13057,7 @@
 				(end 145.683647 102.270127)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "ffb5a665-d441-41ca-972a-8d608d52ee91")
 				(effects
 					(font
@@ -13073,7 +13072,7 @@
 				(end 34.821487 106.459903)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "b573b601-237f-4e08-a89c-50930efab387")
 				(effects
 					(font
@@ -13088,7 +13087,7 @@
 				(end 60.600417 106.459903)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "7be0c61a-46de-4173-8666-2fdadd34b130")
 				(effects
 					(font
@@ -13103,7 +13102,7 @@
 				(end 79.593632 106.459903)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "951adf3b-871f-4979-91eb-8b66a07e9300")
 				(effects
 					(font
@@ -13118,7 +13117,7 @@
 				(end 97.086847 106.459903)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "38540601-cd9e-4715-b0e7-2267d19df587")
 				(effects
 					(font
@@ -13133,7 +13132,7 @@
 				(end 114.580063 106.459903)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "d08e3301-b8e1-4045-87ac-7f989ab7a38c")
 				(effects
 					(font
@@ -13148,7 +13147,7 @@
 				(end 128.030421 106.459903)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "789b4ac1-09a1-4237-83ca-309d60483e16")
 				(effects
 					(font
@@ -13163,7 +13162,7 @@
 				(end 145.683647 106.459903)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "ea6f1a31-8941-4bf5-8324-d2f98a480673")
 				(effects
 					(font
@@ -13178,7 +13177,7 @@
 				(end 34.821487 110.657291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "703d9d65-2c5d-4146-b5e5-5090fbd865ea")
 				(effects
 					(font
@@ -13193,7 +13192,7 @@
 				(end 60.600417 110.657291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "9b040c38-c064-42e8-a92f-27c9ded47192")
 				(effects
 					(font
@@ -13208,7 +13207,7 @@
 				(end 79.593632 110.657291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "d9d734ef-e950-4af5-b39b-979d71952ad4")
 				(effects
 					(font
@@ -13223,7 +13222,7 @@
 				(end 97.086847 110.657291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "e8b602a8-0a0c-42d8-ab2c-8ddee6cdd064")
 				(effects
 					(font
@@ -13238,7 +13237,7 @@
 				(end 114.580063 110.657291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "30fa5b60-7cd7-40a5-bbb6-d16481adfe0a")
 				(effects
 					(font
@@ -13253,7 +13252,7 @@
 				(end 128.030421 110.657291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "3558c965-1484-4efa-a241-57c048257399")
 				(effects
 					(font
@@ -13268,7 +13267,7 @@
 				(end 145.683647 110.657291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "19a078e6-b995-4e26-8e88-d619dc65b2a0")
 				(effects
 					(font
@@ -13283,7 +13282,7 @@
 				(end 34.821487 114.862291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "51ffdcd5-ba6d-49f4-82f8-7e2f9b22c47d")
 				(effects
 					(font
@@ -13298,7 +13297,7 @@
 				(end 60.600417 114.862291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "3afe33f3-b5d3-43a0-a035-d54b603de0fa")
 				(effects
 					(font
@@ -13313,7 +13312,7 @@
 				(end 79.593632 114.862291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "c1e5192a-6e95-4704-ba65-e7803dac2f7c")
 				(effects
 					(font
@@ -13328,7 +13327,7 @@
 				(end 97.086847 114.862291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "cecc7b3b-623d-4715-85ed-09f75d0f1f35")
 				(effects
 					(font
@@ -13343,7 +13342,7 @@
 				(end 114.580063 114.862291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "859625b9-50e7-4d3c-88f4-646d53bcbbe9")
 				(effects
 					(font
@@ -13358,7 +13357,7 @@
 				(end 128.030421 114.862291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "cd30a1c6-62cd-4362-9e67-1236a28f507b")
 				(effects
 					(font
@@ -13373,7 +13372,7 @@
 				(end 145.683647 114.862291)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Cu")
+				(layer "F.Fab")
 				(uuid "f60a5564-a3fd-42dd-88f1-8da6f2e014e0")
 				(effects
 					(font
@@ -15068,31 +15067,30 @@
 		)
 	)
 	(zone
-		(net "Net-(U1-BOOT)")
+		(net "Net-(U1-EN)")
 		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
+		(uuid "92cd392e-6de9-4409-ae26-cd87f78b47c8")
+		(hatch edge 0.5)
+		(priority 7)
+		(connect_pads thru_hole_only
+			(clearance 0.16)
 		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
+		(min_thickness 0.25)
 		(fill yes
-			(island_removal_mode 1)
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
-				(xy 209.67 83.195) (xy 209.67 83.395) (xy 209.883199 83.535) (xy 210.826 83.295) (xy 209.883199 83.055)
+				(xy 206 82.5) (xy 201.5 82.5) (xy 201.5 84.7) (xy 206 84.7)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 209.67 83.195) (xy 209.67 83.395) (xy 209.883199 83.535) (xy 210.826 83.295) (xy 209.883199 83.055)
+				(xy 206 84.7) (xy 201.624 84.7) (xy 201.556961 84.680315) (xy 201.511206 84.627511) (xy 201.5 84.576)
+				(xy 201.5 82.624) (xy 201.519685 82.556961) (xy 201.572489 82.511206) (xy 201.624 82.5) (xy 206 82.5)
 			)
 		)
 	)
@@ -15126,30 +15124,31 @@
 		)
 	)
 	(zone
-		(net "Net-(U1-EN)")
+		(net "Net-(U1-BOOT)")
 		(layer "F.Cu")
-		(uuid "92cd392e-6de9-4409-ae26-cd87f78b47c8")
-		(hatch edge 0.5)
-		(priority 7)
-		(connect_pads thru_hole_only
-			(clearance 0.16)
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
 		)
-		(min_thickness 0.25)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
 		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 0)
+			(island_removal_mode 1)
 		)
 		(polygon
 			(pts
-				(xy 206 82.5) (xy 201.5 82.5) (xy 201.5 84.7) (xy 206 84.7)
+				(xy 209.67 83.195) (xy 209.67 83.395) (xy 209.883199 83.535) (xy 210.826 83.295) (xy 209.883199 83.055)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 206 84.7) (xy 201.624 84.7) (xy 201.556961 84.680315) (xy 201.511206 84.627511) (xy 201.5 84.576)
-				(xy 201.5 82.624) (xy 201.519685 82.556961) (xy 201.572489 82.511206) (xy 201.624 82.5) (xy 206 82.5)
+				(xy 209.67 83.195) (xy 209.67 83.395) (xy 209.883199 83.535) (xy 210.826 83.295) (xy 209.883199 83.055)
 			)
 		)
 	)
